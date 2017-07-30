@@ -1,4 +1,5 @@
 name: cetinajero.github.io/cv
+title: CV                               # head title tag
 url: https://cetinajero.github.io/cv
 timezone: America/Chihuahua
 permalink: /:categories/:title/
