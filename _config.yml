@@ -1,5 +1,6 @@
 title: CV                               # head title tag
 name: Jekyll CV
+public-url: https://cetinajero.github.io/cv
 logo: /img/me.jpg
 lang: es_MX
 timezone: America/Chihuahua
