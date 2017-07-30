@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-  	<head>
-        {% seo %}
-        <link type="text/css" rel="stylesheet" href="{{ site.public-url }}/css/main.css" />
-        <link rel="Shortcut Icon" href="{{ site.public-url }}/img/favicon.ico" type="image/x-icon" />
-  	</head>
-  	<body>
-    		<table id="container">
-            <tbody>
-                <tr>
-                    <td id="generals">
-                        <div id="sidebar">
-                              {% include sidebar.html %}
-                        </div>
-                    </td>
-                    <td id="content">
-                        {{ content }}
-                    </td><!-- end content -->
-                </tr>
-            </tbody>
-    		</table> <!-- end container -->
-  	</body>
+<head>
+  {% seo %}
+  <link type="text/css" rel="stylesheet" href="{{ site.public-url }}/css/main.css" />
+  <link rel="Shortcut Icon" href="{{ site.public-url }}/img/favicon.ico" type="image/x-icon" />
+  <script defer type="text/javascript" src="/js/date.js"></script>
+</head>
+<body>
+  <table id="container">
+    <tbody>
+      <tr>
+        <td id="generals">
+          <div id="sidebar">
+            {% include sidebar.html %}
+          </div>
+        </td>
+        <td id="content">
+          {{ content }}
+        </td><!-- end content -->
+      </tr>
+    </tbody>
+  </table> <!-- end container -->
+</body>
 </html>
