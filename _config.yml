@@ -1,7 +1,20 @@
-name: cetinajero.github.io/cv
 title: CV                               # head title tag
-url: https://cetinajero.github.io/cv
+name: Jekyll CV
+logo: /img/me.jpg
+lang: es_MX
 timezone: America/Chihuahua
+author: cetinajero
+twitter:
+  username: cetinajero
+social:
+  name: cetinajero
+  links:
+      - https://about.me/cetinajero
+      - https://github.com/cetinajero
+      - https://twitter.com/cetinajero
+      - https://facebook.com/cetinajero
+      - https://linkedin.com/in/cetinajero
+      - https://plus.google.com/u/0/+EdgarTinajero
 permalink: /:categories/:title/
 
 markdown: kramdown
