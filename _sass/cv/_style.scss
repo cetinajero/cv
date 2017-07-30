@@ -19,7 +19,7 @@ body {height:100%;margin:0px; padding:0px; font-family: Arial, Helvetica,sans-se
 }
 
 #generals {
-    background:transparent url(../images/bg-generals-blue.jpg) repeat-y fixed left top;
+    background:transparent url(../img/bg-generals-blue.jpg) repeat-y fixed left top;
     vertical-align:top;
     min-width:283px;
     padding:0;
@@ -71,7 +71,7 @@ a img {
 }
 
 #frame {
-	background:url(../images/frame.jpg) no-repeat;
+	background:url(../img/frame.jpg) no-repeat;
 	width:171px;
 	height:214px;
 	margin:25px 0px 0px 0px;
@@ -103,11 +103,11 @@ a img {
 }
 
 #details #phone {
-	background: url(../images/phone.png) no-repeat;
+	background: url(../img/phone.png) no-repeat;
 }
 
 #details #email {
-	background: url(../images/email.png) no-repeat;
+	background: url(../img/email.png) no-repeat;
 }
 
 /*
@@ -175,27 +175,27 @@ a img {
 }
 
 #download {
-	background:url(../images/disk.jpg) no-repeat 0px 9px;
+	background:url(../img/disk.jpg) no-repeat 0px 9px;
 }
 
 #mail {
-	background:url(../images/mail.png) no-repeat 0px 9px;
+	background:url(../img/mail.png) no-repeat 0px 9px;
 }
 
 #photo {
-	background:url(../images/image.png) no-repeat 0px 9px;
+	background:url(../img/image.png) no-repeat 0px 9px;
 }
 
 #english {
-	background:url(../images/en.png) no-repeat 0px 9px;
+	background:url(../img/en.png) no-repeat 0px 9px;
 }
 
 #spanish {
-	background:url(../images/es.png) no-repeat 0px 9px;
+	background:url(../img/es.png) no-repeat 0px 9px;
 }
 
 #online {
-	background:url(../images/online.png) no-repeat 0px 9px;
+	background:url(../img/online.png) no-repeat 0px 9px;
 }
 
 
@@ -206,7 +206,7 @@ a img {
 */
 
 h1 {
-	background: url(../images/gray-trans.png) no-repeat;
+	background: url(../img/gray-trans.png) no-repeat;
 	height:52px;
 	width:369px;
 	left:-34px;
@@ -219,13 +219,13 @@ h1 {
 	margin-top:25px;
 }
 
-.blue { background: url(../images/blue-trans.png) no-repeat; }
-.orange { background: url(/..images/orange-trans.png) no-repeat; }
-.low-gray { background: url(../images/low-gray-trans.png) no-repeat; }
-.pink { background: url(../images/pink-trans.png) no-repeat; }
-.lime { background: url(../images/lime-trans.png) no-repeat; }
-.red { background: url(../images/red-trans.png) no-repeat; }
-.purple { background: url(../images/purple-trans.png) no-repeat; }
+.blue { background: url(../img/blue-trans.png) no-repeat; }
+.orange { background: url(/..img/orange-trans.png) no-repeat; }
+.low-gray { background: url(../img/low-gray-trans.png) no-repeat; }
+.pink { background: url(../img/pink-trans.png) no-repeat; }
+.lime { background: url(../img/lime-trans.png) no-repeat; }
+.red { background: url(../img/red-trans.png) no-repeat; }
+.purple { background: url(../img/purple-trans.png) no-repeat; }
 
 hr {
 	border:0 none;
