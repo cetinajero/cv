@@ -1,0 +1,10 @@
+name: cetinajero.github.io/cv
+url: https://cetinajero.github.io/cv
+timezone: America/Chihuahua
+permalink: /:categories/:title/
+
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
