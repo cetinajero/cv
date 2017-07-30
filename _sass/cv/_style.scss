@@ -1,0 +1,386 @@
+/*
+------------------------------------------------------------
+|                         Site styles
+------------------------------------------------------------
+*/
+
+body {height:100%;margin:0px; padding:0px; font-family: Arial, Helvetica,sans-serif;}
+
+#container {
+	width:100%;
+	margin:0 auto;
+    border-collapse:collapse;
+    padding-left:41px;
+    padding-right:41px;
+}
+
+#container td{
+    /*padding: 0; /* 'cellpadding' equivalent */
+}
+
+#generals {
+    background:transparent url(../images/bg-generals-blue.jpg) repeat-y fixed left top;
+    vertical-align:top;
+    min-width:283px;
+    padding:0;
+    z-index:-1;
+}
+
+#content {
+	float:left;
+	width:698px;
+	position:relative;
+	margin:0px;
+	padding:0px 0px 0px 20px;
+	text-align:justify;
+	margin-bottom:30px;
+    background:white;
+}
+
+#content p {
+	line-height:21px;
+    margin:19px;
+}
+
+a img {
+	border:0 none;
+}
+
+/*
+------------------------------------------------------------
+|                         Sidebar styles
+------------------------------------------------------------
+*/
+#sidebar {
+	width:242px;
+	float:right;
+	margin-top:20px;
+    display:block;
+}
+
+.fixed {
+	position:fixed;
+}
+
+.float {
+
+}
+
+#name{
+    	margin-top:0px;
+}
+
+#frame {
+	background:url(../images/frame.jpg) no-repeat;
+	width:171px;
+	height:214px;
+	margin:25px 0px 0px 0px;
+	padding:15px;
+}
+
+#details {
+	padding:0px;
+	margin:25px 0px 0px 0px;
+	list-style:none;
+	color:#d6d6d6;
+	font-weight:bold;
+	letter-spacing:-1px;
+}
+
+#details a:link,
+#details a:visited {
+ color:#d6d6d6;
+ text-decoration:none;
+ }
+
+#details a:hover {
+ color:white;
+}
+
+#details li{
+	padding:6px 40px 6px 40px;
+	margin:20px 0px 0px 0px;
+}
+
+#details #phone {
+	background: url(../images/phone.png) no-repeat;
+}
+
+#details #email {
+	background: url(../images/email.png) no-repeat;
+}
+
+/*
+------------------------------------------------------------
+|                        Top styles
+------------------------------------------------------------
+*/
+
+#top,
+#footer {
+	clear:both;
+	overflow:hidden;
+	font-size:12px;
+	font-weight:bold;
+	padding:25px 0px 0px 0px;
+}
+
+#top ul,
+#footer ul {
+	margin:auto;
+	padding:0px;
+	list-style:none;
+	width:65%;
+}
+
+#top ul li,
+#footer ul li {
+	float:left;
+	margin:0px 10px 0px 10px;
+}
+
+#top a,
+#footer a{
+	display:block;
+	padding:10px 10px 10px 23px;
+	outline:none;
+}
+
+#top a:link,
+#top a:visited,
+#footer a:link,
+#footer a:visited,
+.degree a:link,
+.degree a:visited {
+	color:#17375C;
+	text-decoration:none;
+}
+
+#top a:hover,
+#footer a:hover,
+.degree a:hover {
+	color:#0085CF;
+}
+
+#top p {
+	cursor:pointer;
+	padding:10px 10px 10px 23px;
+	line-height:14px;
+    margin:0;
+    color:#17375C;
+}
+
+#top p:hover {
+	color:#0085CF;
+}
+
+#download {
+	background:url(../images/disk.jpg) no-repeat 0px 9px;
+}
+
+#mail {
+	background:url(../images/mail.png) no-repeat 0px 9px;
+}
+
+#photo {
+	background:url(../images/image.png) no-repeat 0px 9px;
+}
+
+#english {
+	background:url(../images/en.png) no-repeat 0px 9px;
+}
+
+#spanish {
+	background:url(../images/es.png) no-repeat 0px 9px;
+}
+
+#online {
+	background:url(../images/online.png) no-repeat 0px 9px;
+}
+
+
+/*
+------------------------------------------------------------
+|                        Content styles
+------------------------------------------------------------
+*/
+
+h1 {
+	background: url(../images/gray-trans.png) no-repeat;
+	height:52px;
+	width:369px;
+	left:-34px;
+	position:relative;
+	padding:5px 0px 0px 34px;
+	font-size:25px;
+	color:#17375c;
+	text-shadow:1px 1px #444;
+	margin-bottom:-10px;
+	margin-top:25px;
+}
+
+.blue { background: url(../images/blue-trans.png) no-repeat; }
+.orange { background: url(/..images/orange-trans.png) no-repeat; }
+.low-gray { background: url(../images/low-gray-trans.png) no-repeat; }
+.pink { background: url(../images/pink-trans.png) no-repeat; }
+.lime { background: url(../images/lime-trans.png) no-repeat; }
+.red { background: url(../images/red-trans.png) no-repeat; }
+.purple { background: url(../images/purple-trans.png) no-repeat; }
+
+hr {
+	border:0 none;
+	border-bottom:3px dotted #999;
+}
+
+.degree {
+    text-transform:uppercase;
+    text-align:center;
+    font-size:23px;
+    color:#17375C;
+}
+
+.subdegree {
+	text-transform:uppercase;
+	font-size:15px;
+	color:#999;
+    margin:10px;
+}
+
+h2 {
+	font-size:24px;
+}
+
+h2 small {
+	text-transform:uppercase;
+	font-size:16px;
+	color:#999;
+}
+
+h3 {
+	font-size:17px;
+}
+
+h3 small {
+	text-transform:uppercase;
+	font-size:11px;
+	color:#999;
+}
+
+h4 {
+	font-size:17px;
+	margin:0px 0px 17px 10px;
+}
+
+.position {
+	margin:-19px 0px 0px 0px;
+	text-transform:uppercase;
+	font-size:12px;
+	color:#333;
+}
+
+.position small{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#999;
+}
+
+.floatleft {
+	float:left;
+	overflow:hidden;
+	margin:0px 30px 0px 30px;
+}
+
+#skills .floatleft {
+	float:left;
+	overflow:hidden;
+	margin:0px 5px 0px 5px;
+}
+
+.floatleft ul {
+	margin-bottom:0px;
+	list-style:square;
+}
+
+.floatleft ul li{
+    margin-bottom:8px;
+    padding-left:5px;
+}
+
+.floatleft h3{
+    text-align:center;
+}
+
+.clear {
+	clear:both;
+	height:0px;
+}
+
+#job h2{
+    margin-top:10px;
+}
+
+#skills h3{
+    margin-top:7px;
+}
+
+#remark{
+    background:#ddd;
+}
+
+#certification{
+    background:#17375C;
+}
+
+#remark h2 small,
+#remark .position small,
+#remark h3 small{
+    color:#555555;
+}
+
+#remark,
+#notremark,
+#certification{
+    padding:0px 10px 5px;
+    border-radius:10px;
+}
+
+#remark h2,
+#notremark h2,
+#remark h3,
+#notremark h3{
+    padding-top:5px;
+    color:#17375C;
+}
+
+#certification h3,
+#certification .position,
+#notremark h3,
+#notremark .position,
+#remark h3,
+#remark .position{
+    padding-top:5px;
+}
+
+#certification h3,
+#certification .position{
+    color:#DDDDDD;
+}
+
+#certification .position small,
+#certification h3 small{
+    color:#BBBBBB;
+}
+
+#certifications a{
+    color:#000000;
+    text-decoration:none;
+}
+
+#en{
+    display:none;
+}
+
+#footer div{
+    float:left;
+    margin-top:5px;
+}
