@@ -2,10 +2,24 @@
 <html>
   	<head>
         {% seo %}
+        <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/x-icon" />
   	</head>
   	<body>
     		<div class="content">
     		    {{ content }}
     		</div> <!-- end content -->
+    		<table id="container">
+            <tbody>
+                <tr>
+                    <td id="generals">
+                        <div id="sidebar">
+                        </div>
+                    </td>
+                    <td id="content">
+                        {{ content }}
+                    </td><!-- end content -->
+                </tr>
+            </tbody>
+    		</table> <!-- end container -->
   	</body>
 </html>
