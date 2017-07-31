@@ -1,6 +1,7 @@
 ---
 layout: clean
 title: Edgar Tinajero - Ing. Seguridad Computacional
+permalink: /clean/
 ---
 <div id="es">
   {% include spanish/top.html %}
