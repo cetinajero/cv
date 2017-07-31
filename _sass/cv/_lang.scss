@@ -1,0 +1,23 @@
+/*
+------------------------------------------------------------
+|              CSS for Language CV by cetinajero
+------------------------------------------------------------
+*/
+
+/*
+if ($_GET["en"]=="true")
+    echo "<link type=\"text/css\" rel=\"stylesheet\" href=\"/css/lang.css\" />";
+if ($_GET["contactame"]=="true")
+    echo "<script type=\"text/javascript\">$(document).ready(function(){ $('#contacto').trigger(\"click\");});</script>";
+if ($_GET["email-me"]=="true"){
+    $_GET["en"]="true"; echo "<script type=\"text/javascript\">$(document).ready(function(){ $('#contact').trigger(\"click\");});</script><link type=\"text/css\" rel=\"stylesheet\" href=\"/css/lang.css\" />";
+}
+*/
+
+#en {
+    display:block!important;
+}
+
+#es {
+    display:none!important;
+}
