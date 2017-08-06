@@ -48,9 +48,7 @@ $(document).ready(function(){
 	//$( "#sidebar" ).load( "{{ site.public-url }}/sidebar/" );
 
 	checkWindowSize();
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		theme: 'light_rounded' /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-	});
+	
 	if (DetectMobile())
 		$("head").append($('<link type="text/css" rel="stylesheet" href="https://cetinajero.github.io/cv/css/mobile.css" media="screen"/>'));
 });
