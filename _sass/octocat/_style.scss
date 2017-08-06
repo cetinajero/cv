@@ -12,11 +12,5 @@
   top: 0;
   right: 0;
   border: 0;
-  position: absolute;
-}
-
-@media (max-width: 757px){
-  .octocat-corner{
-    right:calc(100% - 757px);
-  }
+  position: fixed;
 }
