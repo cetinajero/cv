@@ -27,8 +27,9 @@ body {height:100%;margin:0px; padding:0px; font-family: Arial, Helvetica,sans-se
 }
 
 #content {
+	min-width: 455px;
 	float:left;
-	width:calc(100% - 40px);
+	width:calc(100% - 150px);
 	position:relative;
 	margin:0px;
 	padding:0px 0px 0px 20px;
