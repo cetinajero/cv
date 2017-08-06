@@ -1,6 +1,7 @@
 title: CV                               # head title tag
 name: Jekyll CV
 public-url: https://cetinajero.github.io/cv
+#public-url: http://localhost:4000
 repository: https://github.com/cetinajero/cv
 logo: /img/me_small.jpg
 lang: es_MX
