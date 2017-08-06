@@ -28,7 +28,7 @@ body {height:100%;margin:0px; padding:0px; font-family: Arial, Helvetica,sans-se
 
 #content {
 	float:left;
-	width:698px;
+	width:calc(100% - 40px);
 	position:relative;
 	margin:0px;
 	padding:0px 0px 0px 20px;
@@ -130,7 +130,7 @@ label[for=photo] {
 	margin:auto;
 	padding:0px;
 	list-style:none;
-	width:65%;
+	width:455px;
 }
 
 #top ul li,
@@ -202,6 +202,17 @@ label[for=photo] {
 	background:url(../img/online.png) no-repeat 0px 9px;
 }
 
+@media (max-width: 850px){
+	#top ul {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 770px){
+	#top ul {
+    padding-top: 75px;
+  }
+}
 
 /*
 ------------------------------------------------------------
