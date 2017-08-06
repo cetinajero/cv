@@ -62,8 +62,8 @@ a img {
 	position:fixed;
 }
 
-.float {
-
+label[for=photo] {
+	cursor:pointer;
 }
 
 #name{
@@ -140,6 +140,8 @@ a img {
 }
 
 #top a,
+#top label,
+#top p,
 #footer a{
 	display:block;
 	padding:10px 10px 10px 23px;
@@ -148,6 +150,8 @@ a img {
 
 #top a:link,
 #top a:visited,
+#top label,
+#top p,
 #footer a:link,
 #footer a:visited,
 .degree a:link,
@@ -157,21 +161,21 @@ a img {
 }
 
 #top a:hover,
+#top p:hover,
+#top label:hover,
 #footer a:hover,
 .degree a:hover {
 	color:#0085CF;
 }
 
+#top label,
 #top p {
 	cursor:pointer;
-	padding:10px 10px 10px 23px;
-	line-height:14px;
-    margin:0;
-    color:#17375C;
 }
 
-#top p:hover {
-	color:#0085CF;
+#top p {
+	line-height:14px;
+	margin:0px;
 }
 
 #download {
