@@ -1,19 +1,6 @@
-//Initialize our user agent string to lower case.
-var uagent = navigator.userAgent.toLowerCase();
-
-function DetectMobile(){
-	if (uagent.search("iphone") > -1) 		return true;
-	else if (uagent.search("ipod") > -1)		return true;
-	else if (uagent.search("ipad") > -1) 		return true;
-	else if (uagent.search("android") > -1)		return true;
-	else if (uagent.search("blackberry") > -1)	return true;
-	else return false;
-}
-
 function checkWindowSize() {
 	// Fix sidebar if necessary
 	if ( $(window).height() < 520 ) 	$('#sidebar').removeClass('fixed');
-	else if ( DetectMobile() )		$('#sidebar').removeClass('fixed');
 	else $('#sidebar').addClass('fixed');
 
 	// Align generals to the sidebar's right corner
