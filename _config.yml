@@ -1,4 +1,6 @@
 title: CV                               # head title tag
+description: Edgar Tinajero's Curriculum Vitae
+keywords: cv, curriculum, vitae, curriculum vitae
 name: Jekyll CV
 public-url: https://cetinajero.github.io/cv
 repository: https://github.com/cetinajero/cv
@@ -19,8 +21,22 @@ social:
       - https://plus.google.com/u/0/+EdgarTinajero
 permalink: /:categories/:title/
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      published: true
+
+# Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+
+# SEO info
+author: Edgar Tinajero
+
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "Rakefile", "package.json", "LICENSE", "README.md", "vendor"]
