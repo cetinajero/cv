@@ -1,8 +1,8 @@
-# Contributing to the Jekyll theme marketing gem
+# Contributing
 
-Hi there! We're thrilled that you'd like to contribute to the Jekyll theme marketing gem. Your help is essential for keeping it great.
+Hi there! We're thrilled that you'd like to contribute to this repo. Your help is essential for keeping it great.
 
-The Jekyll theme marketing gem is an open source project. We'd love for you to get involved. Whatever your level of skill or however much time you can give, your contribution is greatly appreciated. There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests, helping other users by commenting on issues, or writing code which can be incorporated into the Jekyll theme marketing gem itself.
+This Curriculum Vitae is an open source project. We'd love for you to get involved. Whatever your level of skill or however much time you can give, your contribution is greatly appreciated. There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests, helping other users by commenting on issues, or writing code which can be incorporated into the Curriculum Vitae's repo itself.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
@@ -22,7 +22,7 @@ Here are a few tips for writing *great* bug reports:
 
 ## Your first contribution
 
-We'd love for you to contribute to the project. Unsure where to begin contributing to the Jekyll theme marketing gem? You can start by looking through the "help wanted" issues:
+We'd love for you to contribute to the project. Unsure where to begin contributing to this repo? You can start by looking through the "help wanted" issues:
 
 * [Help wanted issues](https://github.com/cetinajero/cv/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - issues that are specifically seeking community contributions
 
