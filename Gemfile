@@ -11,4 +11,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'wdm' if Gem.win_platform?
 
 # Install html-proofer to test and validate the HTML output
-gem "html-proofer"
+gem 'html-proofer'
