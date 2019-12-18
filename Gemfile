@@ -7,6 +7,9 @@ source 'https://rubygems.org'
 # Install GitHub Pages dependencies needed by bundle exec jekyll serve
 gem 'github-pages', group: :jekyll_plugins
 
+# Install html-proofer to test and validate the HTML output
+gem 'html-proofer'
+
 # Install jekyll-theme-marketing needed to define the layout
 gem 'jekyll-theme-marketing'
 
@@ -16,5 +19,6 @@ if Gem.win_platform?
   gem 'wdm'
 end
 
-# Install html-proofer to test and validate the HTML output
-gem 'html-proofer'
+# TODO: To be removed when octokit has released a version addressing
+# https://github.com/octokit/octokit.rb/issues/1170
+gem 'faraday', '<=0.17.0'
