@@ -3,13 +3,15 @@ rvm:
   - 2.5.3
 
 before_install:
-  - gem update --system
   - gem install bundler
 
-before_script:
- - chmod +x ./script/cibuild # or do this locally and commit
-
-script: ./script/cibuild
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script:
+  - bundle exec jekyll build
+  # - bundle exec rake test:test
+  # - bundle exec rubocop
+  # - bundle exec rake test:html
 
 env:
   global:

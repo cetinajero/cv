@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.1)
+    activesupport (6.0.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -166,7 +166,7 @@ GEM
     jekyll-theme-leap-day (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme-marketing (1.0.0)
+    jekyll-theme-marketing (1.0.1)
       jekyll (~> 3.6)
     jekyll-theme-merlot (0.1.1)
       jekyll (~> 3.5)
@@ -262,4 +262,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.0.1
+   2.1.1
