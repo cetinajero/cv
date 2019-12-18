@@ -10,6 +10,9 @@ gem 'github-pages', group: :jekyll_plugins
 # Install html-proofer to test and validate the HTML output
 gem 'html-proofer'
 
+# Install rubocop to test and validate the Ruby source code
+gem 'rubocop'
+
 # Install jekyll-theme-marketing needed to define the layout
 gem 'jekyll-theme-marketing'
 
