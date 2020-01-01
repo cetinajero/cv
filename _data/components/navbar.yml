@@ -1,0 +1,23 @@
+i18n:
+  en_US:
+    contact_me:
+      title: Email me
+      email: cetinajero@me.com
+    download:
+      title: Download CV
+      link: /assets/pdf/CV_Edgar_Tinajero_English.pdf
+    lang_switcher: 
+      title: Español
+      id: spanish
+    photo: View photo
+  es_MX:
+    contact_me:
+      title: Contáctame
+      email: cetinajero@me.com
+    download:
+      title: Descargar CV
+      link: /assets/pdf/CV_Edgar_Tinajero_Spanish.pdf
+    lang_switcher: 
+      title: English
+      id: english
+    photo: Ver Foto

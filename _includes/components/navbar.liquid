@@ -1,0 +1,31 @@
+{% assign data = site.data.components.navbar.i18n[include.lang] %}
+
+<div id="top">
+  <ul>
+
+    <li id="download">
+      <a href="{{ site.public-url }}{{ data.download.link }}">
+        {{ data.download.title }}
+      </a>
+    </li>
+
+    <li id="mail">
+      <a href="mailto:{{ data.contact_me.email }}" id="contacto">
+        {{ data.contact_me.title }}
+      </a>
+    </li>
+
+    <li id="photo">
+      <label for="photo">
+        {{ data.photo }}
+      </label>
+    </li>
+
+    <li id="{{ data.lang_switcher.id }}">
+      <p onClick="change_lang('{{ data.lang_switcher.title | downcase | slice: 0,2 }}');">
+        {{ data.lang_switcher.title }}
+      </p>
+    </li>
+
+  </ul>
+</div>

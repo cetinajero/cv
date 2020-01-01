@@ -4,7 +4,7 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
 permalink: /clean/
 ---
 <div id="es">
-  {% include spanish/top.html %}
+  {% include components/navbar.liquid lang="es_MX" %}
   {% include spanish/degree.html %}
   {% include spanish/general.html %}
   {% include spanish/goal.html %}
@@ -18,7 +18,7 @@ permalink: /clean/
 </div>
 
 <div id="en">
-  {% include english/top.html %}
+  {% include components/navbar.liquid lang="en_US" %}
   {% include english/degree.html %}
   {% include english/general.html %}
   {% include english/goal.html %}
