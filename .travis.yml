@@ -8,10 +8,9 @@ before_install:
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:
-  - bundle exec jekyll build
   # - bundle exec rake test:test
   # - bundle exec rubocop
-  # - bundle exec rake test:html
+  - bundle exec rake test:html
 
 env:
   global:
