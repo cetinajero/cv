@@ -1,0 +1,58 @@
+#sidebar {
+	width:242px;
+	float:right;
+	margin-top:20px;
+    display:block;
+}
+
+.fixed {
+	position:fixed;
+}
+
+label[for=photo] {
+	cursor:pointer;
+}
+
+#name{
+    	margin-top:0px;
+}
+
+#frame {
+	background:url(../img/frame.jpg) no-repeat;
+	width:171px;
+	height:214px;
+	margin:25px 0px 0px 0px;
+	padding:15px;
+}
+
+#details {
+	padding:0px;
+	margin:25px 0px 0px 0px;
+	list-style:none;
+	color:#d6d6d6;
+	font-weight:bold;
+	letter-spacing:-1px;
+}
+
+#details a:link,
+#details a:visited {
+ color:#d6d6d6;
+ text-decoration:none;
+ }
+
+#details a:hover {
+ color:white;
+}
+
+#details li{
+	padding:6px 40px 6px 40px;
+	margin:20px 0px 0px 0px;
+}
+
+#details #phone {
+	background: url(../img/phone.png) no-repeat;
+}
+
+#details #email {
+	background: url(../img/email.png) no-repeat;
+}
