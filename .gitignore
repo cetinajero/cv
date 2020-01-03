@@ -8,3 +8,17 @@ _config-dev.yml
 .docker
 .yarn-integrity
 yarn-error.log
+
+# Node.JS modules
+/assets/node_modules/**/*.md
+/assets/node_modules/**/AUTHORS.txt
+/assets/node_modules/**/bower.json
+/assets/node_modules/**/LICENSE.txt
+/assets/node_modules/**/package.json
+
+# jquery
+/assets/node_modules/jquery/external/
+/assets/node_modules/jquery/src/
+/assets/node_modules/jquery/dist/core.js
+/assets/node_modules/jquery/dist/jquery.js
+/assets/node_modules/jquery/dist/*.slim.*

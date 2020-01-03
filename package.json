@@ -6,5 +6,7 @@
   "repository": "git@github.com:cetinajero/cv.git",
   "author": "<cetinajero@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "latest"
+  }
 }
