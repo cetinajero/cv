@@ -1,18 +1,18 @@
 <div id="name">
   <a href="{{ '/' | relative_url }}">
-    <img src="{{ '/assets/img/name-trans-white.png' | relative_url }}" title="Edgar Tinajero" alt="Edgar Tinajero" />
+    <img src="{{ '/assets/img/name-trans-white.png' | relative_url }}" title="{{ site.author }}" alt="{{ site.author }}" />
   </a>
 </div>
 <div id="frame">
   <label for="photo">
-    <img src="{{ '/assets/img/me_small.jpg' | relative_url }}" title="Edgar Tinajero" alt="Edgar Tinajero" />
+    <img src="{{ '/assets/img/me_small.jpg' | relative_url }}" title="{{ site.author }}" alt="{{ site.author }}" />
   </label>
 </div>
 <ul id="details">
   <li id="phone">
-    <img src="{{ '/assets/img/flag-mx.gif' | relative_url }}" alt="México"> Cel. (55) 4868 8100
+    <img src="{{ '/assets/img/flag-mx.gif' | relative_url }}" alt="México"> Cel. (xx) xxxx xxxx
   </li>
   <li id="email">
-    <a href="mailto:cetinajaro@me.com">cetinajaro@me.com</a>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
   </li>
 </ul>

@@ -1,8 +1,6 @@
 i18n:
   en_US:
-    contact_me:
-      title: Email me
-      email: cetinajero@me.com
+    contact_me: Email me
     download:
       title: Download CV
       link: /assets/pdf/CV_Edgar_Tinajero_English.pdf
@@ -11,9 +9,7 @@ i18n:
       id: spanish
     photo: View photo
   es_MX:
-    contact_me:
-      title: Contáctame
-      email: cetinajero@me.com
+    contact_me: Contáctame
     download:
       title: Descargar CV
       link: /assets/pdf/CV_Edgar_Tinajero_Spanish.pdf
