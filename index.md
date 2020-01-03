@@ -3,7 +3,7 @@ layout: default
 title: Edgar Tinajero - Ing. Seguridad Computacional
 ---
 <div id="es">
-  {% include components/navbar.liquid lang="es_MX" %}
+  {% include components/navbars/navbar.liquid lang="es_MX" %}
   {% include spanish/degree.html %}
   {% include spanish/general.html %}
   {% include spanish/goal.html %}
@@ -17,7 +17,7 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
 </div>
 
 <div id="en">
-  {% include components/navbar.liquid lang="en_US" %}
+  {% include components/navbars/navbar.liquid lang="en_US" %}
   {% include english/degree.html %}
   {% include english/general.html %}
   {% include english/goal.html %}

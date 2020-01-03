@@ -2,21 +2,21 @@
 <html>
   <head>
     {% seo %}
-    <link type="text/css" rel="stylesheet" href="{{ site.public-url }}/css/main.css" />
-    <link rel="Shortcut Icon" href="{{ site.public-url }}/img/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <link rel="Shortcut Icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon" />
     <script defer type="text/javascript" src="{{ '/assets/vendors/jquery/1.3.2/jquery.min.js' | relative_url }}"></script>
     <script defer type="text/javascript" src="{{ site.public-url }}/js/sidebar.js"></script>
     <script defer type="text/javascript" src="{{ site.public-url }}/js/date.js"></script>
     <script async type="text/javascript" src="{{ site.public-url }}/js/lang.js"></script>
   </head>
   <body>
-    {% include modal.html %}
+    {% include components/modals/modal.liquid %}
     <table id="container">
       <tbody>
         <tr>
           <td id="generals">
             <div id="sidebar">
-              {% include sidebar.html %}
+              {% include components/sidebars/sidebar.liquid %}
             </div>
           </td>
           <td id="content">
@@ -25,6 +25,6 @@
         </tr>
       </tbody>
     </table> <!-- end container -->
-    {% include octocat.html %}
+    {% include components/ribbons/octocat-corners.liquid %}
   </body>
 </html>

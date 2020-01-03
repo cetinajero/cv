@@ -4,6 +4,6 @@
 ---
 
 @import "cv/style";
-@import "cv/modal";
-@import "octocat/style";
-@import "octocat/animation";
+@import "components/modals/modal";
+@import "components/ribbons/octocat-corners/style";
+@import "components/ribbons/octocat-corners/animation";
