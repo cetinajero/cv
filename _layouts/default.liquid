@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     {% seo %}
     <link type="text/css" rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
@@ -9,8 +10,10 @@
     <script defer type="text/javascript" src="{{ '/assets/js/date.js' | relative_url }}"></script>
     <script async type="text/javascript" src="{{ '/assets/js/lang.js' | relative_url }}"></script>
   </head>
+
   <body>
     {% include components/modals/modal.liquid %}
+
     <table id="container">
       <tbody>
         <tr>
@@ -25,6 +28,8 @@
         </tr>
       </tbody>
     </table> <!-- end container -->
+
     {% include components/ribbons/octocat-corners.liquid %}
   </body>
+
 </html>
