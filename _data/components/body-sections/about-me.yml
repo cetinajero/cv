@@ -1,0 +1,15 @@
+i18n:
+  en_US:
+    heading: About me
+    paragraphs:
+      - start: Administrator, specialist, auditor and information systems analyst with over
+        end: years experience.
+        id: experience-en
+      - start: I am a person that has goals and desire to use my skills and abilities to benefit the technology field in a company and continue with my professional development.
+  es_MX:
+    heading: Acerca de mí
+    paragraphs:
+      - start: Administrador, especialista, auditor y analista de sistemas de información con mas de
+        end: años de experiencia.
+        id: experience-es
+      - start: Soy una persona que se basa en metas y deseo explotar mis competencias y habilidades en base a los objetivos de la compañía, así como continuar con mi desarrollo profesional.

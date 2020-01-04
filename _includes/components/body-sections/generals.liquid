@@ -1,0 +1,10 @@
+{% assign data = site.data.components.body-sections.generals.i18n[include.lang] %}
+
+<div id="general"><h1 class="low-gray">{{ data.heading }}</h1>
+  <h2>{{ data.title }}</h2>
+  <div id="info">
+    {% for attribute in data.attributes %}
+      <p>{{ attribute.key }}: <strong id="{{ attribute.id }}"></strong><strong> {{ attribute.value }}</strong></p>
+    {% endfor %}
+  </div>
+</div>

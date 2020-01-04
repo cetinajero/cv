@@ -4,10 +4,10 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
 ---
 <div id="es">
   {% include components/navbars/navbar.liquid lang="es_MX" %}
-  {% include spanish/degree.html %}
-  {% include spanish/general.html %}
-  {% include spanish/goal.html %}
-  {% include spanish/aboutme.html %}
+  {% include components/body-sections/degree.liquid lang="es_MX" %}
+  {% include components/body-sections/generals.liquid lang="es_MX" %}
+  {% include components/body-sections/goals.liquid lang="es_MX" %}
+  {% include components/body-sections/about-me.liquid lang="es_MX" %}
   {% include spanish/availability.html %}
   {% include spanish/experience.html %}
   {% include spanish/projects.html %}
@@ -18,10 +18,10 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
 
 <div id="en">
   {% include components/navbars/navbar.liquid lang="en_US" %}
-  {% include english/degree.html %}
-  {% include english/general.html %}
-  {% include english/goal.html %}
-  {% include english/aboutme.html %}
+  {% include components/body-sections/degree.liquid lang="en_US" %}
+  {% include components/body-sections/generals.liquid lang="en_US" %}
+  {% include components/body-sections/goals.liquid lang="en_US" %}
+  {% include components/body-sections/about-me.liquid lang="en_US" %}
   {% include english/availability.html %}
   {% include english/experience.html %}
   {% include english/projects.html %}

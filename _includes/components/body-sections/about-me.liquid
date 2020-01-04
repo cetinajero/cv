@@ -1,0 +1,9 @@
+{% assign data = site.data.components.body-sections.about-me.i18n[include.lang] %}
+
+<div id="aboutme"><h1 class="low-gray">{{ data.heading }}</h1>
+  <div id="info">
+    {% for p in data.paragraphs %}
+      <p>{{ p.start }} <span id="{{ p.id }}"></span> {{ p.end }}</p>
+    {% endfor %}
+  </div>
+</div>

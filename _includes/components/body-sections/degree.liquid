@@ -1,0 +1,14 @@
+{% assign data = site.data.components.body-sections.degree.i18n[include.lang] %}
+
+<h2 class="degree">
+  {{ data.degree }}
+  <div class="subdegree">
+    {{ data.subdegree }}:
+    {% for certification in data.certifications %}
+      <a href="{{ certification.url }}" title="{{ certification.tooltip }}" id="{{ certification.id }}">
+        {{ certification.name }}
+      </a>
+      |
+    {% endfor %}
+  </div>
+</h2>
