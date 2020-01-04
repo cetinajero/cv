@@ -1,0 +1,43 @@
+i18n:
+  en_US:
+    heading: Availability
+    info:
+      - key: Willing to travel
+        value: Yes, inside and outside the country (current visa and passport)
+      - key: Willingness to relocate
+        value: Yes
+      - key: Type of contract desired
+        value: Full time
+    interest-areas:
+      heading: Areas of interest
+      areas:
+        - heading: Information security / IT
+          interests:
+            - Application security (SAST | DAST)
+            - Network security (Perimeter and Infrastructure)
+            - IT infrastructure administrator
+            - Telecommunications and mobile systems
+            - IT consultanting
+            - Research and reeingeneering
+            - Project management
+  es_MX:
+    heading: Disponibilidad
+    info:
+      - key: Disponibilidad para viajar
+        value: Sí, nacional e internacionalmente (visa y pasaporte vigentes)
+      - key: Disponibilidad para reubicarse
+        value: Sí, preferentemente a Monterrey o Guadalajara
+      - key: Tipo de contratación deseada
+        value: Tiempo completo
+    interest-areas:
+      heading: Áreas de interés
+      areas:
+        - heading: Seguridad de la Información / Sistemas
+          interests:
+            - Seguridad aplicativa (SAST | DAST)
+            - Seguridad en redes (perimetral e infraestructura)
+            - Administrador de infraestructura de TI
+            - Telecomunicaciones y sistemas móviles
+            - Consultoría y auditoría de TI
+            - Investigación y reingeniería de servicios
+            - Gestión de proyectos

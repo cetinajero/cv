@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Edgar Tinajero - Ing. Seguridad Computacional
 ---
 <div id="es">
@@ -8,7 +7,7 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
   {% include components/body-sections/generals.liquid lang="es_MX" %}
   {% include components/body-sections/goals.liquid lang="es_MX" %}
   {% include components/body-sections/about-me.liquid lang="es_MX" %}
-  {% include spanish/availability.html %}
+  {% include components/body-sections/availability.liquid lang="es_MX" %}
   {% include spanish/experience.html %}
   {% include spanish/projects.html %}
   {% include spanish/skills.html %}
@@ -22,7 +21,7 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
   {% include components/body-sections/generals.liquid lang="en_US" %}
   {% include components/body-sections/goals.liquid lang="en_US" %}
   {% include components/body-sections/about-me.liquid lang="en_US" %}
-  {% include english/availability.html %}
+  {% include components/body-sections/availability.liquid lang="en_US" %}
   {% include english/experience.html %}
   {% include english/projects.html %}
   {% include english/skills.html %}
