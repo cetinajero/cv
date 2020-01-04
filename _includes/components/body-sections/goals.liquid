@@ -1,6 +1,7 @@
 {% assign data = site.data.components.body-sections.goals.i18n[include.lang] %}
 
-<div id="goal"><h1 class="low-gray">{{ data.heading }}</h1>
+<div id="goal">
+  {% include components/headings/low-gray.liquid %}
   <div id="info">
     <p>{{ data.paragraph }}</p>
   </div>

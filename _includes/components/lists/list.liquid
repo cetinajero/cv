@@ -1,0 +1,10 @@
+<div class="floatleft">
+  {% for area in data.interest-areas.areas %}
+    <h4>{{ area.heading }}</h4>
+    <ul>
+      {% for interest in area.interests %}
+        <li>{{ interest }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>

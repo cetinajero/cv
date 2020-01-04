@@ -1,28 +1,17 @@
 {% assign data = site.data.components.body-sections.availability.i18n[include.lang] %}
 
-<div id="availability"><h1 class="low-gray">{{ data.heading }}</h1>
+<div id="availability">
+  {% include components/headings/low-gray.liquid %}
   <div id="info">
 
-    {% for info in data.info %}
-      <p>
-        {{ info.key }}:
-        <strong>{{ info.value }}</strong>
-      </p>
+    {% for attribute in data.info %}
+      {% include components/description-lists/description-list.liquid %}
     {% endfor %}
 
     <p id="interest-areas">{{ data.interest-areas.heading }}:</p>
-    <div class="floatleft">
-      {% for area in data.interest-areas.areas %}
-        <h4>{{ area.heading }}</h4>
-        <ul>
-          {% for interest in area.interests %}
-            <li>{{ interest }}</li>
-          {% endfor %}
-        </ul>
-      {% endfor %}
-    </div>
+    {% include components/lists/list.liquid %}
 
-    <div class="clear"></div>
+    {% include components/utilities/clearfix.liquid %}
 
   </div>
 </div>
