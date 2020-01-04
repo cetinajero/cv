@@ -1,0 +1,127 @@
+i18n:
+  en_US:
+    heading: Work Experience
+    jobs:
+      - company: Sytecso
+        position: Security process practice leader
+        contract: Full time
+        duration: May 2012 - present
+        class: jobname
+        desc: Coordinate and supervise the advice and support of wireless networks and CCTV for each of the distributors of the company, considering the design and project development.
+        activities:
+          - heading: 'Main Activities:'
+            bullets:
+              - Control and management of technical training courses for the channel of distributors and vertical markets.
+              - Care to distributors in the management, design, planning and estimating projects WiBB and CCTV, including personal visits being launched nationwide.
+              - Quality control, analysis and product testing skills new to the portfolio of solutions and leading several projects related to the introduction of new technologies and services.
+              - Support distributor to the end customer demonstrations as a field engineer brand representative.
+              - In charge of the quality process in the area of IT that PV Comunicaciones performed annually to maintain the Quality Management System ISO 9001:2008 certification.
+              - Self-programmed annual visits to distributors focus on strategic business plan.
+      - company: PV Comunicaciones
+        position: Engineering and IT Manager
+        contract: Full time
+        duration: July 2010 - April 2012
+        class: remark
+        desc: Coordinate and supervise the advice and support of wireless networks and CCTV for each of the distributors of the company, considering the design and project development.
+        activities:
+          - heading: 'Main Activities:'
+            bullets:
+              - Control and management of technical training courses for the channel of distributors and vertical markets.
+              - Care to distributors in the management, design, planning and estimating projects WiBB and CCTV, including personal visits being launched nationwide.
+              - Quality control of new products to be added to the solutions portfolio and lead of several projects related to the introduction of new technologies and services.
+              - Distributors support on demonstrations to the end customer as well as a field engineer brand representative.
+              - Leader on the IT quality process performed annualy by PV Comunicaciones regarding the Quality Management System ISO 9001:2008 certification.
+              - Self-programmed annual visits to distributors focused on the strategic business plan review.
+      - company: PV Comunicaciones
+        position: IT Manager
+        contract: Full time
+        duration: August 2009 - July 2010
+        class: remark
+        desc: Maintenance of the server and user equipment integrity, as well as on-site hosted services including communication between branches via voice, video and data. Management of backups and maintenance of all the IT infrastructure.
+        activities:
+          - heading: 'Main Activities:'
+            bullets:
+              - Control and management of different computer centers virtualization environments and IT infrastructure of the company nationwide.
+              - Analysis and evaluation of software tools related to risk management, vulnerability management, security information and event management.
+              - Enterprise network security policies and users/severs backup data policies management.
+              - Control and management of growth opportunities in IT services through the ISO 9001:2008 as a field of continuous improvement.
+              - Monitoring and management of computing services, network, PBX and CCTV as a proactive approach to disaster recovery, calculation of return on investment and decision making.
+              - Leader of the verification of integrity and functionality of the IT infrastructure, analysis of fall prevention, maintenance and upgrade of computer systems (Mac | Windows), risk management and business continuity.
+      - company: PV Comunicaciones
+        position: IT Assistant
+        contract: Full time
+        duration: December 2006 - August 2009
+        class: remark
+        desc: Technical support to users, including servers, communications, networking, security, hardware and software consulting, DB backup, and new software or services implementation.
+        activities:
+          - heading: 'Main Activities:'
+            bullets:
+              - Data Backup DB's (daily, weekly and monthly).
+              - Server monitoring, dedicated links and Web service.
+              - Antivirus Administration (Corporate and Branch).
+              - Preventive and corrective maintenance to computer equipment.
+              - Support service and PBX switch operation.
+              - Assist the client company's internal systems issues in the area.
+  es_MX:
+    heading: Experiencia laboral
+    jobs:
+      - company: Sytecso / Grupo Salinas, Banorte, Banxico y otros clientes
+        position: Security process practice leader
+        contract: Tiempo completo
+        duration: Mayo 2012 - presente
+        class: jobname
+        desc: Líder de la práctica de seguridad aplicativa de Sytecso para el hallazgo, análisis, resolución y validación de defectos y/o vulnerabilidades de seguridad a través del análisis de código fuente y ejecución de pruebas de penetración a infraestructura, aplicaciones y servicios Web.
+        activities:
+          - heading: 'Actividades Principales:'
+            bullets:
+              - Líder de proyectos en la implementación de marcos de referencia y cumplimiento de estándares en seguridad informática. (OWASP, PCI DSS, SAMM, etc.)
+              - Instalación, parametrización y capacitación de la suite de herramientas utilizadas para la automatización de la seguridad conformada por uno de los pilares de la división ESP (Enterprise Security Products).
+              - Análisis de código estático para la detección de vulnerabilidades y/o defectos de seguridad en software para escenarios White Box.
+              - Pruebas de penetración para evaluación de la seguridad informática de la infraestructura en escenarios Black Box.
+              - Implementación, parametrización y despliegue de escáneres para la detección de vulnerabilidades explotables en las diferentes DMZ utilizadas por los corporativos para la publicación de sus aplicaciones AAA.
+              - Implementación y determinación del Factor de Riesgo de seguridad informática por servicio/unidad de negocio y/o compañia asi como la ejecución de reportes, cumplimiento de estandares, indicadores de desempeño (KPI's / KGI's), creación de paquetes de reglas de vulnerabilidades, etc.
+      - company: PV Comunicaciones
+        position: Gerente de Ingeniería y Sistemas
+        contract: Tiempo completo
+        duration: Julio 2010 - Abril 2012
+        class: remark
+        desc: Coordinar y supervisar el soporte y asesoramiento de redes inalámbricas y CCTV para cada uno de los distribuidores de la empresa, contemplando el diseño y elaboración de proyectos.
+        activities:
+          - heading: 'Actividades Principales:'
+            bullets:
+              - Control y administración de cursos de formación técnica para el canal de distribuidores y mercados verticales.
+              - Atención a distribuidores en la gestión, diseño, planeación y estimación de proyects de WiBB y CCTV, incluyendo visitas personales en fase de lanzamiento a nivel nacional.
+              - Control de calidad, análisis de competencias y prueba de productos de nuevo ingreso al portafolio de soluciones, así como líder en varios proyectos relacionados con la introducción de nuevas tecnologías y servicios.
+              - Apoyo al distribuidor en demostraciones al cliente final como ingeniero de campo representante de marca.
+              - Encargado del proceso de calidad en el área de TI que PV Comunicaciones realiza anualmente para mantener el Sistema de Gestión de Calidad certificado en ISO 9001:2008.
+              - Programa de visitas anuales a distribuidores con la autorización correspondiente para programar itinerario.
+      - company: PV Comunicaciones
+        position: Jefe de Sistemas
+        contract: Tiempo completo
+        duration: Agosto 2009 - Julio 2010
+        class: remark
+        desc: Mantener la integridad de los equipos de computo y servidores, así como los servicios que se encuentran hospedados en el site incluyendo la comunicación entre las sucursales por medio de voz, video y datos, además de los respaldos y mantenimiento de toda la infraestructura del TI.
+        activities:
+          - heading: 'Actividades Principales:'
+            bullets:
+              - Control y administración de los diferentes centros de computo entornos de virtualización así como la infraestructura de TI de la empresa a nivel nacional.
+              - Análisis y evaluación de herramientas de software relacionadas con la gestión de riesgos, gestión de vulnerabilidades, seguridad de la información y gestión de eventos.
+              - Administrar las políticas de seguridad de la red empresarial así como las políticas respaldo de información de usuarios y servidores.
+              - Control y administración de las oportunidades de crecimiento en servicios de TI a través del ISO 9001:2008 como campo de mejora continua.
+              - Administración y monitoreo de servicios de computo, red, PBX y CCTV como método proactivo para recuperación de desastres, cálculo del retorno de inversión y toma de decisiones.
+              - Líder de la verificación de integridad y funcionalidad de la infraestructura de TI, análisis preventivo contra caídas de servicio, mantenimiento y actualización de sistemas informáticos (Linux | Windows), gestión de riesgos y continuidad del negocio.
+      - company: PV Comunicaciones
+        position: Auxiliar en Sistemas
+        contract: Tiempo completo
+        duration: Diciembre 2006 - Agosto 2009
+        class: remark
+        desc: Dar apoyo en el área de soporte técnico a usuarios, englobando servidores, comunicaciones, redes, seguridad, soporte físico y lógico, respaldo de DB's, así como la implementación de nuevo software y/o servicios.
+        activities:
+          - heading: 'Actividades Principales:'
+            bullets:
+              - Respaldo de información de BD's (diario, semanal y mensual).
+              - Monitoreo de los servidores, enlaces dedicados y servicio de Red.
+              - Administración de antivirus (Corporativo y Sucursales).
+              - Mantenimiento preventivo y correctivo al equipo de computo.
+              - Apoyar en el servicio y funcionamiento del conmutador PBX.
+              - Auxiliar al cliente interno de la empresa en cuestiones del área de sistemas.

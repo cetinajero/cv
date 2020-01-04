@@ -1,0 +1,36 @@
+{% assign data = site.data.components.body-sections.experience.i18n[include.lang] %}
+
+<div id="experience">
+  {% include components/headings/low-gray.liquid %}
+  <div id="info">
+
+    {% for job in data.jobs %}
+      <div id="job">
+
+        {% include components/pills/pill.liquid 
+          heading-title=job.company
+          heading-small=job.duration
+          heading-class=job.class
+          details-title=job.position
+          details-small=job.contract
+        %}
+
+        <div id="jobdesc">
+          <p>{{ job.desc }}</p>
+        </div>
+
+        <div id="jobtasks" class="disabled-pdf">
+          {% for activity in job.activities %}
+            {% include components/lists/list.liquid lists=job.activities %}
+          {% endfor %}
+        </div>
+
+        {% include components/utilities/clearfix.liquid %}
+      </div>
+
+      {% unless forloop.last %}
+        <hr/>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

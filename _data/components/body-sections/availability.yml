@@ -12,7 +12,7 @@ i18n:
       heading: Areas of interest
       areas:
         - heading: Information security / IT
-          interests:
+          bullets:
             - Application security (SAST | DAST)
             - Network security (Perimeter and Infrastructure)
             - IT infrastructure administrator
@@ -33,7 +33,7 @@ i18n:
       heading: Áreas de interés
       areas:
         - heading: Seguridad de la Información / Sistemas
-          interests:
+          bullets:
             - Seguridad aplicativa (SAST | DAST)
             - Seguridad en redes (perimetral e infraestructura)
             - Administrador de infraestructura de TI

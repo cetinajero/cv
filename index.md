@@ -8,7 +8,7 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
   {% include components/body-sections/goals.liquid lang="es_MX" %}
   {% include components/body-sections/about-me.liquid lang="es_MX" %}
   {% include components/body-sections/availability.liquid lang="es_MX" %}
-  {% include spanish/experience.html %}
+  {% include components/body-sections/experience.liquid lang="es_MX" %}
   {% include spanish/projects.html %}
   {% include spanish/skills.html %}
   {% include spanish/education.html %}
@@ -22,7 +22,7 @@ title: Edgar Tinajero - Ing. Seguridad Computacional
   {% include components/body-sections/goals.liquid lang="en_US" %}
   {% include components/body-sections/about-me.liquid lang="en_US" %}
   {% include components/body-sections/availability.liquid lang="en_US" %}
-  {% include english/experience.html %}
+  {% include components/body-sections/experience.liquid lang="en_US" %}
   {% include english/projects.html %}
   {% include english/skills.html %}
   {% include english/education.html %}

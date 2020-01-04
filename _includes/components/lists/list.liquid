@@ -1,9 +1,9 @@
 <div class="floatleft">
-  {% for area in data.interest-areas.areas %}
-    <h4>{{ area.heading }}</h4>
+  {% for list in include.lists %}
+    <h4>{{ list.heading }}</h4>
     <ul>
-      {% for interest in area.interests %}
-        <li>{{ interest }}</li>
+      {% for bullet in list.bullets %}
+        <li>{{ bullet }}</li>
       {% endfor %}
     </ul>
   {% endfor %}

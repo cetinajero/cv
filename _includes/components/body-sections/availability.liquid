@@ -9,7 +9,7 @@
     {% endfor %}
 
     <p id="interest-areas">{{ data.interest-areas.heading }}:</p>
-    {% include components/lists/list.liquid %}
+    {% include components/lists/list.liquid lists=data.interest-areas.areas %}
 
     {% include components/utilities/clearfix.liquid %}
 
