@@ -1,0 +1,15 @@
+{% assign data = site.data.components.body-sections.skills.i18n[include.lang] %}
+
+<div id="skills">
+  {% include components/headings/low-gray.liquid %}
+  <div id="info">
+    <p>{{ data.desc }}</p>
+    
+    {% include components/lists/list.liquid lists=data.skills %}
+    {% include components/utilities/clearfix.liquid %}
+    
+    {% include components/lists/list.liquid lists=data.languages %}
+    {% include components/utilities/clearfix.liquid %}
+    
+  </div>
+</div>

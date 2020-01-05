@@ -1,10 +1,10 @@
-<div class="floatleft">
-  {% for list in include.lists %}
+{% for list in include.lists %}
+  <div class="floatleft">
     <h4>{{ list.heading }}</h4>
     <ul>
       {% for bullet in list.bullets %}
         <li>{{ bullet }}</li>
       {% endfor %}
     </ul>
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}

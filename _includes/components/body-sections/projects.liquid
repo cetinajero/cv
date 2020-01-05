@@ -1,0 +1,21 @@
+{% assign data = site.data.components.body-sections.projects.i18n[include.lang] %}
+
+<div id="projects">
+  {% include components/headings/low-gray.liquid %}
+  <div id="info">
+    <ul>
+      {% for project in data.projects %}
+        {% capture heading-class %}{% cycle 'notremark', 'remark' %}{% endcapture %}
+        <li>
+          {% include components/pills/pill.liquid
+            heading-tag='h3'
+            heading-title=project.name
+            heading-small=project.company
+            heading-class=heading-class
+            details-title=project.details
+          %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

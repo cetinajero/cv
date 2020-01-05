@@ -1,0 +1,67 @@
+i18n:
+  en_US:
+    heading: Professional skills
+    desc: I consider myself a responsible, proactive, innovative professional, with leadership, teamwork and decision making skills, under pressure and/or critical situations. I have a strong focus on results, ease of speech and change adaptation hability.
+    languages:
+      - bullets:
+        - <strong>English:</strong> Level 5 (CEFR) | 87%
+    skills:
+      - heading: Operating systems
+        bullets:
+          - Microsoft Windows
+          - Linux
+          - macOS
+          - UNIX | BSD
+          - iOS
+          - Among others...
+      - heading: Software
+        bullets:
+          - VMware (ESX | ESXi | vSphere)
+          - Asterisk (VoIP)
+          - Active Directory, Exchange, MS SQL
+          - LAMP (Linux | Apache | MySQL | PHP)
+          - Sendmail, Postfix, Bind
+          - Microsoft Office, PhotoShop, Corel
+          - Among others...
+      - heading: Languages
+        bullets:
+          - HTML5/CSS3/JS
+          - Ruby
+          - Python
+          - Elixir
+          - Java
+          - C#
+          - Among others...
+  es_MX:
+    heading: Habilidades profesionales
+    desc: Me considero un profesionista responsable, proactivo, innovador y con liderazgo; con capacidad para trabajar en equipo, y tomar decisiones en situaciones criticas o bajo presión. Cuento con enfoque a resultados, facilidad de palabra y capacidad de adaptación al cambio.
+    languages:
+      - bullets:
+        - <strong>Inglés:</strong> Nivel 5 (CEFR) | 87%
+    skills:
+      - heading: Sistemas operativos
+        bullets:
+          - Microsoft Windows
+          - Linux
+          - macOS
+          - UNIX | BSD
+          - iOS
+          - Entre otros...
+      - heading: Software
+        bullets:
+          - VMware (ESX | ESXi | vSphere)
+          - Asterisk (VoIP)
+          - Active Directory, Exchange, MS SQL
+          - LAMP (Linux | Apache | MySQL | PHP)
+          - Sendmail, Postfix, Bind
+          - Microsoft Office, PhotoShop, Corel
+          - Entre otros...
+      - heading: Lenguajes
+        bullets:
+          - HTML5/CSS3/JS
+          - Ruby
+          - Python
+          - Elixir
+          - Java
+          - C#
+          - Entre otros...

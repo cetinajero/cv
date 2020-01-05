@@ -1,0 +1,37 @@
+i18n:
+  en_US:
+    heading: Remarkable Projects
+    projects:
+      - name: New Main Site - Leader in the construction and implementation of new computer center for PV Comunicaciones
+        company: PV Comunicaciones
+        details: 2010 | Chihuahua, Mexico | $ 1,280,000 MXN
+      - name: Asterisk - Developer and manager of PBX VoIP network implementation at national level | GNU / Linux CentOS, Asterisk, Cisco SPA500
+        company: PV Comunicaciones
+        details: 2010 | Chihuahua, Mexico | $ 470,000 MXN
+      - name: VMware - Promoter and responsible for implementation of virtualization | 15 vServers were obtained with 2 ESXi hypervisors vSphere 4
+        company: PV Comunicaciones
+        details: 2009 | Chihuahua, Mexico | $ 120,000 MXN
+      - name: iNetworks Veracruz - Installation of Motorola HotZone Management Server | Metropolitan Mesh Network to Veracruz and Boca del Rio
+        company: Veracruz Government
+        details: 2009 | Veracruz, Mexico | $USD 1,500,000
+      - name: Zumpango Insurance - Designer of the project and flotilla leader | Wireless video security administered by the municipality C4
+        company: Zumpango Government
+        details: 2008 | Zumpango, Mexico | $USD 120,000
+  es_MX:
+    heading: Proyectos Destacables
+    projects:
+      - name: Nuevo Site Principal - Líder en la construcción e implementación del nuevo centro de computo de PV Comunicaciones a nivel nacional
+        company: PV Comunicaciones
+        details: 2010 | Chihuahua, México | $ 1,280,000 MXN
+      - name: Asterisk - Promotor y encargado de implementación de red PBX VoIP a nivel nacional | GNU/Linux CentOS, Asterisk, Cisco SPA500
+        company: PV Comunicaciones
+        details: 2010 | Chihuahua, México | $ 470,000 MXN
+      - name: VMware - Promotor y encargado de implementación de virtualización | Se obtuvieron 15 vServers con 2 Hypervisores vSphere 4 ESXi
+        company: PV Comunicaciones
+        details: 2009 | Chihuahua, México | $ 120,000 MXN
+      - name: iNetworks Veracruz - Encargado de instalación de MotoMesh Management Server | Red Mesh Metropolitana para Veracruz y Boca del Rio
+        company: Gob de Veracruz
+        details: 2009 | Veracruz, México | $USD 1,500,000
+      - name: Zumpango Seguro - Diseñador del proyecto y líder de flotilla | Videoseguridad Inalámbrica administrada por el C4 del municipio
+        company: Gobierno de Zumpango
+        details: 2008 | Zumpango, Edo. de México | $USD 120,000
