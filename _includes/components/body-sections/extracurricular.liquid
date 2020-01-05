@@ -1,0 +1,21 @@
+{% assign data = site.data.components.body-sections.extracurricular.i18n[include.lang] %}
+
+<div id="extracurricular">
+  {% include components/headings/low-gray.liquid %}
+  <div id="info">
+    <ul>
+      {% for activity in data.activities %}
+        {% capture heading-class %}{% cycle 'extracurricular-group': 'notremark', 'remark' %}{% endcapture %}
+        <li>
+          {% include components/pills/pill.liquid
+            heading-tag='h3'
+            heading-title=activity.name
+            heading-small=activity.company
+            heading-class=heading-class
+            details-title=activity.details
+          %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

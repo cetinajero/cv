@@ -5,7 +5,7 @@
   <div id="info">
     <ul>
       {% for project in data.projects %}
-        {% capture heading-class %}{% cycle 'notremark', 'remark' %}{% endcapture %}
+        {% capture heading-class %}{% cycle 'projects-group': 'notremark', 'remark' %}{% endcapture %}
         <li>
           {% include components/pills/pill.liquid
             heading-tag='h3'

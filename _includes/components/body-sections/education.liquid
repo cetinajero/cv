@@ -1,0 +1,54 @@
+{% assign data = site.data.components.body-sections.education.i18n[include.lang] %}
+
+<div id="education">
+  {% include components/headings/low-gray.liquid %}
+  <div id="info">
+
+    {% for degree in data.degrees %}
+      <div id="degree">
+
+        {% include components/pills/pill.liquid 
+          heading-title=degree.heading-title
+          heading-small=degree.heading-small
+          heading-class=degree.heading-class
+          details-title=degree.details-title
+        %}
+
+        <div id="degree-info" class="disabled-pdf">
+          {% for activity in degree.activities %}
+            {% include components/lists/list.liquid lists=degree.activities %}
+          {% endfor %}
+        </div>
+
+        {% include components/utilities/clearfix.liquid %}
+      </div>
+
+      {% if degree.certifications %}
+        <hr/>
+        <div id="certifications">
+          <h2>{{ degree.certifications.heading }}</h2>
+          <ul>
+            {% for certification in degree.certifications.list %}
+              <a {% if certification.url %}href="{{ certification.url }}?iframe=true&width=1110&height=400"{% endif %} title="{{ certification.name }}">
+                <li>
+                  {% include components/pills/pill.liquid
+                    heading-tag='h3'
+                    heading-title=certification.name
+                    heading-small=certification.company
+                    heading-class=certification.class
+                    details-title=certification.details
+                  %}
+                </li>
+              </a>
+            {% endfor %}
+          </ul>
+
+        </div>
+      {% endif %}
+
+      {% unless forloop.last %}
+        <hr/>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

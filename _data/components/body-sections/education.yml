@@ -1,0 +1,211 @@
+i18n:
+  en_US:
+    heading: Academic
+    degrees:
+      - heading-title: Engineering in Computer Security
+        heading-small: October 2007 - August 2011
+        details-title: Tec-Milenio University Campus Chihuahua, Chihuahua, Chih.
+        class: degree-name
+        activities:
+          - heading: 'Highlights:'
+            bullets:
+              - Entitled
+              - <span title="General Exam of Graduation Degree | CENEVAL">Testimony Outstanding Performance (EGEL | CENEVAL)</span>
+              - Maintained GPA, working 45 hours per week
+        certifications:
+          heading: Courses and certifications
+          list:
+            - name: ENSA - EC-Council Network Security Administrator
+              company: EC-Council
+              url: //www.info-trek.com/details/ENSA-EC-Council-Network-Security-Administrator/4931
+              details: 2013 | Mexico City | 45 hours
+              class: remark
+            - name: TECI-FrtySec13 certification | HP Technical Certified I - Fortify Security
+              company: HP
+              url: //certification-learning.hpe.com/TR/DataSheet/Certification/ATP-FSV1?version=6
+              details: 2013 | Mexico City
+              class: certification
+            - name: ECSP Certification | EC-Council Certified Secure Programmer
+              company: EC-Council
+              url: //cert.eccouncil.org/ec-council-certified-secure-programmer.html
+              details: 2012 | Mexico City
+              class: certification
+            - name: CEH Certification | Certified Ethical Hacker
+              company: EC-Council
+              url: https://cert.eccouncil.org/certified-ethical-hacker.html
+              details: 2012 | Mexico City
+              class: certification
+            - name: Certification Course S5 | Security 5
+              company: EC-Council
+              details: 2011 | Chihuahua, Mexico | 20 hours
+              class: remark
+            - name: ECSI Certification | Certified Security Information Specialist
+              company: ALAPSI
+              url: http://www.alapsi.net/pgsi.html
+              details: 2011 | Chihuahua, Mexico
+              class: certification
+            - name: Program Information Security Management
+              company: ALAPSI
+              details: 2011 | Chihuahua, Mexico | 100 hours
+              class: remark
+            - name: Technical Course and Telemetry Systems Geolocation IP over RF
+              company: BGH
+              details: 2009 | Buenos Aires, Argentina | 55 hours
+              class: remark
+            - name: 6420A - Fundamentals of Windows Server 2008 Network and Applications Infrastructure
+              company: NetX
+              details: 2009 | Chihuahua, Mexico | 35 hours
+              class: remark
+            - name: Certification Course MWFE | Motorola Wireless Field Engineer
+              company: Motorola
+              details: 2009 | Mexico City | 45 hours
+              class: remark
+            - name: MMD200 - Technical Course MotoMesh Solo/Duo/Quattro
+              company: Motorola
+              details: 2008 | Mexico City | 20 hours
+              class: notremark
+            - name: CASS Certification | Certified Alvarion System Specialist
+              company: Alvarion
+              details: 2008 | Cancun, Mexico
+              class: certification
+            - name: IP Convergence Seminar
+              company: Pelco
+              details: 2008 | Monterrey, Mexico | 5 hours
+              class: notremark
+            - name: Technical Course Installation and Configuration Services Digital Imaging and Video
+              company: Pelco
+              details: 2008 | Clovis, CA, United States | 30 hours
+              class: remark
+            - name: Technical Course DigitalSENTRY IP Video Recording
+              company: Pelco
+              details: 2008 | Clovis, CA, United States | 20 hours
+              class: notremark
+            - name: CPT400 - Technical Course Prizm Management System
+              company: Motorola
+              details: 2007 | Mexico City | 10 hours
+              class: notremark
+            - name: HZD200 - Technical Course HotZone Duo
+              company: Motorola
+              details: 2007 | Mexico City | 20 hours
+              class: notremark
+            - name: BPL200 - Technical Course Broadband over Power Line
+              company: Motorola
+              details: 2007 | Mexico City | 10 hours
+              class: notremark
+            - name: CPT210 - Technical Course Orthogon Systems OFDM
+              company: Motorola
+              details: 2007 | Mexico City | 20 hours
+              class: notremark
+            - name: CPT200 - Technical Course Canopy FSK
+              company: Motorola
+              details: 2007 | Mexico City | 20 hours
+              class: notremark
+            - name: Base Course Design for Video Surveillance Systems
+              company: Pelco
+              details: 2007 | Clovis, CA, United States | 50 hours
+              class: notremark
+  es_MX:
+    heading: Formación académica
+    degrees:
+      - heading-title: Ingeniería en Seguridad Computacional
+        heading-small: Oct 2007 - Agosto 2011
+        details-title: Universidad Tec-Milenio Campus Chihuahua, Chihuahua, Chih.
+        class: degree-name
+        activities:
+          - heading: 'Destacado:'
+            bullets:
+              - Titulado
+              - <span title="Examen General de Egreso de Licenciatura | CENEVAL">Testimonio de Desempeño Sobresaliente (EGEL | CENEVAL)</span>
+              - Mantenido el promedio de calificaciones trabajando 45 horas por semana (toda la carrera)
+        certifications:
+          heading: Cursos y certificaciones
+          list:
+            - name: ENSA - EC-Council Network Security Administrator
+              company: EC-Council
+              url: //www.info-trek.com/details/ENSA-EC-Council-Network-Security-Administrator/4931
+              details: 2013 | Mexico City | 45 hours
+              class: remark
+            - name: Certificación TECI-FrtySec13 | HP Technical Certified I - Fortify Security
+              company: HP
+              url: //certification-learning.hpe.com/TR/DataSheet/Certification/ATP-FSV1?version=6
+              details: 2013 | México, D.F.
+              class: certification
+            - name: Certificación ECSP | EC-Council Certified Secure Programmer
+              company: EC-Council
+              url: //cert.eccouncil.org/ec-council-certified-secure-programmer.html
+              details: 2012 | México, D.F.
+              class: certification
+            - name: Certificación CEH | Certified Ethical Hacker
+              company: EC-Council
+              url: https://cert.eccouncil.org/certified-ethical-hacker.html
+              details: 2012 | México, D.F.
+              class: certification
+            - name: Curso de Certificación S5 | Security 5
+              company: EC-Council
+              details: 2011 | Chihuahua, México | 20 horas
+              class: remark
+            - name: Certificación ECSI | Especialista Certificado en Seguridad de Información
+              company: ALAPSI
+              url: http://www.alapsi.net/pgsi.html
+              details: 2011 | Chihuahua, México
+              class: certification
+            - name: Programa de Gestión de Seguridad de Información
+              company: ALAPSI
+              details: 2011 | Chihuahua, México | 100 horas
+              class: remark
+            - name: Curso Técnico de Geolocalización y Telemetría en Sistemas IP sobre Radiofrecuencia
+              company: BGH
+              details: 2009 | Buenos Aires, Argentina | 55 horas
+              class: remark
+            - name: 6420A - Fundamentals of Windows Server 2008 Network and Applications Infrastructure
+              company: NetX
+              details: 2009 | Chihuahua, México | 35 horas
+              class: remark
+            - name: Curso de Certificación MWFE | Motorola Wireless Field Engineer
+              company: Motorola
+              details: 2009 | México, D.F. | 45 horas
+              class: remark
+            - name: MMD200 - Curso Técnico MotoMesh Solo/Duo/Quattro
+              company: Motorola
+              details: 2008 | México, D.F. | 20 horas
+              class: notremark
+            - name: Certificación CASS | Certified Alvarion System Specialist
+              company: Alvarion
+              details: 2008 | Cancún, México
+              class: certification
+            - name: Seminario de Convergencia IP
+              company: Pelco
+              details: 2008 | Monterrey, México | 5 horas
+              class: notremark
+            - name: Curso Técnico de Instalación y Configuración de Servicios de Imagen y Video Digital
+              company: Pelco
+              details: 2008 | Clovis, CA, Estados Unidos | 30 horas
+              class: remark
+            - name: Curso Técnico de Grabación de Video IP DigitalSENTRY
+              company: Pelco
+              details: 2008 | Clovis, CA, Estados Unidos | 20 horas
+              class: notremark
+            - name: CPT400 - Curso Técnico Prizm Management System
+              company: Motorola
+              details: 2007 | México, D.F. | 10 horas
+              class: notremark
+            - name: HZD200 - Curso Técnico HotZone Duo
+              company: Motorola
+              details: 2007 | México, D.F. | 20 horas
+              class: notremark
+            - name: BPL200 - Curso Técnico Broadband over Power Line
+              company: Motorola
+              details: 2007 | México, D.F. | 10 horas
+              class: notremark
+            - name: CPT210 - Curso Técnico Orthogon Systems OFDM
+              company: Motorola
+              details: 2007 | México, D.F. | 20 horas
+              class: notremark
+            - name: CPT200 - Curso Técnico Canopy FSK
+              company: Motorola
+              details: 2007 | México, D.F. | 20 horas
+              class: notremark
+            - name: Curso Base de Diseño de Sistemas de Videovigilancia
+              company: Pelco
+              details: 2007 | Clovis, CA, Estados Unidos | 50 horas
+              class: notremark
