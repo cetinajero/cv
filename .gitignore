@@ -17,6 +17,22 @@ yarn-error.log
 /assets/node_modules/**/LICENSE.txt
 /assets/node_modules/**/package.json
 
+# @fortawesome/fontawesome-free
+/assets/node_modules/@fortawesome/fontawesome-free/css/
+/assets/node_modules/@fortawesome/fontawesome-free/less/
+/assets/node_modules/@fortawesome/fontawesome-free/metadata/
+/assets/node_modules/@fortawesome/fontawesome-free/scss/
+/assets/node_modules/@fortawesome/fontawesome-free/sprites/
+/assets/node_modules/@fortawesome/fontawesome-free/svgs/
+/assets/node_modules/@fortawesome/fontawesome-free/webfonts/
+/assets/node_modules/@fortawesome/fontawesome-free/js/*
+!/assets/node_modules/@fortawesome/fontawesome-free/js/*.min.js
+/assets/node_modules/@fortawesome/fontawesome-free/js/conflict-detection.*
+/assets/node_modules/@fortawesome/fontawesome-free/js/v4-shims.*
+/assets/node_modules/@fortawesome/fontawesome-free/js/all.*
+/assets/node_modules/@fortawesome/fontawesome-free/js/brands.*
+/assets/node_modules/@fortawesome/fontawesome-free/js/regular.*
+
 # bootstrap
 /assets/node_modules/popper.js/
 /assets/node_modules/bootstrap/dist/
