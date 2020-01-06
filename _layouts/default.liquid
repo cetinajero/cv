@@ -21,11 +21,15 @@
             </div>
           </td>
           <td id="content">
-            {{ content }}
-          </td><!-- end content -->
+            {% for lang in site.languages %}
+              <div id="{{ lang | slice: 0,2 }}">
+                {% include components/landing-pages/cv.liquid lang=lang %}
+              </div>
+            {% endfor %}
+          </td>
         </tr>
       </tbody>
-    </table> <!-- end container -->
+    </table>
 
     {% include components/ribbons/octocat-corners.liquid %}
   </body>

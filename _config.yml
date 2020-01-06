@@ -1,11 +1,12 @@
-title: CV                               # head title tag
-description: Edgar Tinajero's Curriculum Vitae
+title: Edgar Tinajero
+description: Edgar Tinajero's personal website
 keywords: cv, curriculum, vitae, curriculum vitae
 name: Jekyll CV
 theme: null
 repository: https://github.com/cetinajero/cv
 logo: /img/me_small.jpg
 lang: es_MX
+languages: ['es_MX', 'en_US']
 timezone: America/Chihuahua
 email: cetinajero@me.com
 twitter:
