@@ -5,7 +5,7 @@
   <div id="info">
     <p>{{ data.desc }}</p>
     
-    {% include components/lists/list.liquid lists=data.skills %}
+    {% include components/lists/list.liquid lists=data.skills heading-type='h3' %}
     {% include components/utilities/clearfix.liquid %}
     
     {% include components/lists/list.liquid lists=data.languages %}

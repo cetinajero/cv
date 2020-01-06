@@ -5,7 +5,7 @@ i18n:
       - key: Willing to travel
         value: Yes, inside and outside the country (current visa and passport)
       - key: Willingness to relocate
-        value: Yes
+        value: 'Yes'
       - key: Type of contract desired
         value: Full time
     interest-areas:

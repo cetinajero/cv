@@ -1,6 +1,8 @@
 {% for list in include.lists %}
   <div class="floatleft">
-    <h4>{{ list.heading }}</h4>
+    <{{ include.heading-type | default: 'h4' }}>
+      {{ list.heading }}
+    </{{ include.heading-type | default: 'h4' }}>
     <ul>
       {% for bullet in list.bullets %}
         <li>{{ bullet }}</li>

@@ -38,7 +38,7 @@ i18n:
             - name: Certification Course S5 | Security 5
               company: EC-Council
               details: 2011 | Chihuahua, Mexico | 20 hours
-              class: remark
+              class: notremark
             - name: ECSI Certification | Certified Security Information Specialist
               company: ALAPSI
               url: http://www.alapsi.net/pgsi.html
@@ -47,7 +47,7 @@ i18n:
             - name: Program Information Security Management
               company: ALAPSI
               details: 2011 | Chihuahua, Mexico | 100 hours
-              class: remark
+              class: notremark
             - name: Technical Course and Telemetry Systems Geolocation IP over RF
               company: BGH
               details: 2009 | Buenos Aires, Argentina | 55 hours
@@ -143,7 +143,7 @@ i18n:
             - name: Curso de Certificación S5 | Security 5
               company: EC-Council
               details: 2011 | Chihuahua, México | 20 horas
-              class: remark
+              class: notremark
             - name: Certificación ECSI | Especialista Certificado en Seguridad de Información
               company: ALAPSI
               url: http://www.alapsi.net/pgsi.html
@@ -152,7 +152,7 @@ i18n:
             - name: Programa de Gestión de Seguridad de Información
               company: ALAPSI
               details: 2011 | Chihuahua, México | 100 horas
-              class: remark
+              class: notremark
             - name: Curso Técnico de Geolocalización y Telemetría en Sistemas IP sobre Radiofrecuencia
               company: BGH
               details: 2009 | Buenos Aires, Argentina | 55 horas

@@ -13,8 +13,19 @@ yarn-error.log
 /assets/node_modules/**/*.md
 /assets/node_modules/**/AUTHORS.txt
 /assets/node_modules/**/bower.json
+/assets/node_modules/**/LICENSE
 /assets/node_modules/**/LICENSE.txt
 /assets/node_modules/**/package.json
+
+# bootstrap
+/assets/node_modules/popper.js/
+/assets/node_modules/bootstrap/dist/
+/assets/node_modules/bootstrap/js/
+/assets/node_modules/bootstrap/scss/**/*.scss
+!/assets/node_modules/bootstrap/scss/_functions.scss
+!/assets/node_modules/bootstrap/scss/_variables.scss
+!/assets/node_modules/bootstrap/scss/mixins/_breakpoints.scss
+!/assets/node_modules/bootstrap/scss/utilities/_spacing.scss
 
 # jquery
 /assets/node_modules/jquery/external/
