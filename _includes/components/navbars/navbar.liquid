@@ -22,7 +22,7 @@
     </li>
 
     <li id="{{ data.lang_switcher.id }}">
-      <p onClick="change_lang('{{ data.lang_switcher.title | downcase | slice: 0,2 }}');">
+      <p onClick="change_lang('{{ data.lang_switcher.target }}');">
         {{ data.lang_switcher.title }}
       </p>
     </li>
