@@ -22,7 +22,7 @@
           </td>
           <td id="content">
             {% for lang in site.languages %}
-              <div id="{{ lang | slice: 0,2 }}">
+              <div id="{{ lang }}">
                 {% include components/landing-pages/cv.liquid lang=lang %}
               </div>
             {% endfor %}

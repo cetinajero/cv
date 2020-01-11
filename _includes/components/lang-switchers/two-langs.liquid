@@ -1,0 +1,21 @@
+<script type="text/javascript">
+  function change_lang(urlLang) {
+    const availableLangs = [{{ site.languages | append: ',' }}][0];
+    const lang = availableLangs.includes(urlLang) ? urlLang : '{{ site.lang }}'; 
+    
+    availableLangs.forEach(l => {
+      document.getElementById(l).style.display = (lang == l) ? 'inline' : 'none';
+    });
+
+    // Update browser's url
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set('lang', lang);
+    window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
+  }
+
+  window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.has('lang') ? urlParams.get('lang') : '{{ site.lang }}';
+    change_lang(urlLang);
+  };
+</script>
