@@ -1,0 +1,12 @@
+#content {
+  box-sizing: border-box; // Delete when bootstrap/scss/reboot gets merged
+}
+
+[data-component="navbars/bootstrap"] {
+  ul {
+    margin-top: 0; // Delete when bootstrap/scss/reboot gets merged
+    a {
+      text-decoration: none; // Delete when bootstrap/scss/reboot gets merged
+    }
+  }
+}

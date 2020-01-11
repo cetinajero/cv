@@ -8,7 +8,6 @@ i18n:
       title: Español
       id: spanish
       target: es_MX
-    photo: View photo
   es_MX:
     contact_me: Contáctame
     download:
@@ -18,4 +17,3 @@ i18n:
       title: English
       id: english
       target: en_US
-    photo: Ver Foto
