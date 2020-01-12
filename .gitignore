@@ -61,6 +61,5 @@ yarn-error.log
 # jquery
 /assets/node_modules/jquery/external/
 /assets/node_modules/jquery/src/
-/assets/node_modules/jquery/dist/core.js
-/assets/node_modules/jquery/dist/jquery.js
-/assets/node_modules/jquery/dist/*.slim.*
+/assets/node_modules/jquery/dist/*.*
+!/assets/node_modules/jquery/dist/*.slim.min.*
