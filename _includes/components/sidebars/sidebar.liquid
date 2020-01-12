@@ -1,18 +1,27 @@
-<div id="name">
-  <a href="{{ '/' | relative_url }}">
-    <img src="{{ '/assets/img/name-trans-white.png' | relative_url }}" title="{{ site.author }}" alt="{{ site.author }}" />
-  </a>
+<div data-component="sidebars/sidebar">
+
+  <div id="name">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/name-trans-white.png' | relative_url }}" title="{{ site.author }}" alt="{{ site.author }}" />
+    </a>
+  </div>
+
+  <div id="frame">
+    <label for="photo">
+      <img src="{{ '/assets/img/me_small.jpg' | relative_url }}" title="{{ site.author }}" alt="{{ site.author }}" />
+    </label>
+  </div>
+
+  <ul id="details">
+    <li>
+      <a href="mailto:{{ site.email }}">
+        <span class="fa-layers fa-fw">
+          <i class="fas fa-square bg-envelope fa-2x" data-fa-transform="left-7 down-1"></i>
+          <i class="far fa-envelope text-envelope fa-lg" data-fa-transform="left-8 down-1.5"></i>
+        </span>
+        {{ site.email }}
+      </a>
+    </li>
+  </ul>
+
 </div>
-<div id="frame">
-  <label for="photo">
-    <img src="{{ '/assets/img/me_small.jpg' | relative_url }}" title="{{ site.author }}" alt="{{ site.author }}" />
-  </label>
-</div>
-<ul id="details">
-  <li id="phone">
-    <img src="{{ '/assets/img/flag-mx.gif' | relative_url }}" alt="México"> Cel. (xx) xxxx xxxx
-  </li>
-  <li id="email">
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-  </li>
-</ul>

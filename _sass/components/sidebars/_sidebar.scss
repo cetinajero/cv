@@ -1,3 +1,12 @@
+[data-component="sidebars/sidebar"] {
+  .text-envelope {
+    color: #df5e53;
+  }
+  .bg-envelope {
+    color: #fbebe9;
+  }
+}
+
 #sidebar {
 	width:242px;
 	float:right;
@@ -45,14 +54,6 @@ label[for=photo] {
 }
 
 #details li{
-	padding:6px 40px 6px 40px;
+	padding:6px 40px 6px 16px;
 	margin:20px 0px 0px 0px;
-}
-
-#details #phone {
-	background: url(../img/phone.png) no-repeat;
-}
-
-#details #email {
-	background: url(../img/email.png) no-repeat;
 }

@@ -31,21 +31,39 @@ yarn-error.log
 /assets/node_modules/@fortawesome/fontawesome-free/js/v4-shims.*
 /assets/node_modules/@fortawesome/fontawesome-free/js/all.*
 /assets/node_modules/@fortawesome/fontawesome-free/js/brands.*
-/assets/node_modules/@fortawesome/fontawesome-free/js/regular.*
 
 # bootstrap
 /assets/node_modules/popper.js/
 /assets/node_modules/bootstrap/dist/
-/assets/node_modules/bootstrap/js/
+/assets/node_modules/bootstrap/js/**/*.*
+!/assets/node_modules/bootstrap/js/dist/util.js
+!/assets/node_modules/bootstrap/js/dist/collapse.js
 /assets/node_modules/bootstrap/scss/**/*.scss
 !/assets/node_modules/bootstrap/scss/_functions.scss
 !/assets/node_modules/bootstrap/scss/_variables.scss
+!/assets/node_modules/bootstrap/scss/vendor/_rfs.scss
+!/assets/node_modules/bootstrap/scss/mixins/_deprecate.scss
 !/assets/node_modules/bootstrap/scss/mixins/_breakpoints.scss
+!/assets/node_modules/bootstrap/scss/mixins/_hover.scss
+!/assets/node_modules/bootstrap/scss/mixins/_screen-reader.scss
+!/assets/node_modules/bootstrap/scss/mixins/_text-emphasis.scss
+!/assets/node_modules/bootstrap/scss/mixins/_text-hide.scss
+!/assets/node_modules/bootstrap/scss/mixins/_text-truncate.scss
+!/assets/node_modules/bootstrap/scss/mixins/_background-variant.scss
+!/assets/node_modules/bootstrap/scss/mixins/_border-radius.scss
+!/assets/node_modules/bootstrap/scss/mixins/_transition.scss
+!/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss
+!/assets/node_modules/bootstrap/scss/_transitions.scss
+!/assets/node_modules/bootstrap/scss/_nav.scss
+!/assets/node_modules/bootstrap/scss/_navbar.scss
+!/assets/node_modules/bootstrap/scss/utilities/_background.scss
+!/assets/node_modules/bootstrap/scss/utilities/_borders.scss
+!/assets/node_modules/bootstrap/scss/utilities/_flex.scss
 !/assets/node_modules/bootstrap/scss/utilities/_spacing.scss
+!/assets/node_modules/bootstrap/scss/utilities/_text.scss
 
 # jquery
 /assets/node_modules/jquery/external/
 /assets/node_modules/jquery/src/
-/assets/node_modules/jquery/dist/core.js
-/assets/node_modules/jquery/dist/jquery.js
-/assets/node_modules/jquery/dist/*.slim.*
+/assets/node_modules/jquery/dist/*.*
+!/assets/node_modules/jquery/dist/*.slim.min.*

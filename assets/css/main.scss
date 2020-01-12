@@ -4,17 +4,41 @@
 // Define charset
 @charset "utf-8";
 
+// Define bootstrap variables
+$theme-colors: (
+  "primary": #17375C
+);
+
 // Import bootstrap partials
 @import "../assets/node_modules/bootstrap/scss/functions";
 @import "../assets/node_modules/bootstrap/scss/variables";
+@import "../assets/node_modules/bootstrap/scss/vendor/rfs";
+@import "../assets/node_modules/bootstrap/scss/mixins/deprecate";
 @import "../assets/node_modules/bootstrap/scss/mixins/breakpoints";
+@import "../assets/node_modules/bootstrap/scss/mixins/hover";
+@import "../assets/node_modules/bootstrap/scss/mixins/screen-reader";
+@import "../assets/node_modules/bootstrap/scss/mixins/text-emphasis";
+@import "../assets/node_modules/bootstrap/scss/mixins/text-hide";
+@import "../assets/node_modules/bootstrap/scss/mixins/text-truncate";
+@import "../assets/node_modules/bootstrap/scss/mixins/background-variant";
+@import "../assets/node_modules/bootstrap/scss/mixins/border-radius";
+@import "../assets/node_modules/bootstrap/scss/mixins/transition";
+@import "../assets/node_modules/bootstrap/scss/mixins/clearfix";
+@import "../assets/node_modules/bootstrap/scss/transitions";
+@import "../assets/node_modules/bootstrap/scss/nav";
+@import "../assets/node_modules/bootstrap/scss/navbar";
+@import "../assets/node_modules/bootstrap/scss/utilities/background";
+@import "../assets/node_modules/bootstrap/scss/utilities/borders";
+@import "../assets/node_modules/bootstrap/scss/utilities/flex";
 @import "../assets/node_modules/bootstrap/scss/utilities/spacing";
+@import "../assets/node_modules/bootstrap/scss/utilities/text";
 
 @import "cv/style";
 
 // Import component partials
+@import "components/body-sections/degree";
 @import "components/modals/modal";
-@import "components/navbars/navbar";
+@import "components/navbars/bootstrap";
 @import "components/ribbons/octocat-corners/animation";
 @import "components/ribbons/octocat-corners/style";
 @import "components/sidebars/sidebar";

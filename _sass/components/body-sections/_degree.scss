@@ -1,0 +1,12 @@
+.degree {
+  a {
+    &:link,
+    &:visited {
+      color:#17375C;
+      text-decoration:none;
+    }
+    &:hover {
+      color:#0085CF;
+    }
+  }
+}
