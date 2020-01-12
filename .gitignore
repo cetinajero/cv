@@ -55,8 +55,11 @@ yarn-error.log
 !/assets/node_modules/bootstrap/scss/_transitions.scss
 !/assets/node_modules/bootstrap/scss/_nav.scss
 !/assets/node_modules/bootstrap/scss/_navbar.scss
+!/assets/node_modules/bootstrap/scss/utilities/_background.scss
+!/assets/node_modules/bootstrap/scss/utilities/_borders.scss
 !/assets/node_modules/bootstrap/scss/utilities/_flex.scss
 !/assets/node_modules/bootstrap/scss/utilities/_spacing.scss
+!/assets/node_modules/bootstrap/scss/utilities/_text.scss
 
 # jquery
 /assets/node_modules/jquery/external/

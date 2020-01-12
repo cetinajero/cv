@@ -1,25 +1,21 @@
 {% assign data = site.data.components.navbars.bootstrap.i18n[include.lang] %}
 
-<div id="top">
-  <ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded my-3" data-component="navbars/bootstrap">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bootstrapNavbar" aria-controls="bootstrapNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <li id="download">
-      <a href="{{ data.download.link | relative_url }}">
-        {{ data.download.title }}
-      </a>
-    </li>
+  <div class="collapse navbar-collapse justify-content-md-center" id="bootstrapNavbar">
+    <ul class="navbar-nav">
 
-    <li id="mail">
-      <a href="mailto:{{ site.email }}" id="contacto">
-        {{ data.contact_me }}
-      </a>
-    </li>
+      {% for item in data.nav-items %}
+        <li class="nav-item font-weight-bold px-3 small">
+          <a class="nav-link text-primary" href="{{ item.link | replace_first: '@site.email', site.email | relative_url }}">
+            {{ item.icon }} {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
 
-    <li id="{{ data.lang_switcher.id }}">
-      <p onClick="change_lang('{{ data.lang_switcher.target }}');">
-        {{ data.lang_switcher.title }}
-      </p>
-    </li>
-
-  </ul>
-</div>
+    </ul>
+  </div>
+</nav>

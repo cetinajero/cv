@@ -6,7 +6,6 @@
     <link type="text/css" rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     <link rel="Shortcut Icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon" />
     <link rel="search" href="{{ '/assets/xml/opensearch.xml' | relative_url }}"  title="Search {{ site.title }}" type="application/opensearchdescription+xml" />
-    {% include components/scripts/scripts.liquid %}
   </head>
 
   <body>
@@ -32,6 +31,7 @@
     </table>
 
     {% include components/ribbons/octocat-corners.liquid %}
+    {% include components/scripts/scripts.liquid %}
   </body>
 
 </html>

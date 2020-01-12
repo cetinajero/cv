@@ -3,10 +3,30 @@
 }
 
 [data-component="navbars/bootstrap"] {
+  .text-envelope {
+    color: #c2c2c2;
+  }
+  .text-pdf {
+    color: #db4437;
+  }
+  .text-ocean {
+    color: #8cdbf7
+  }
+  .fa-layers-lang {
+    transform: scale(0.5) translateX(-40%) translateY(50%);
+  }
+  button {
+    margin: 0; // Delete when bootstrap/scss/reboot gets merged
+  }  
   ul {
     margin-top: 0; // Delete when bootstrap/scss/reboot gets merged
+    .small {
+      @include font-size($small-font-size); // Delete when bootstrap/scss/type gets merged
+      font-weight: $font-weight-normal; // Delete when bootstrap/scss/type gets merged
+    }
     a {
       text-decoration: none; // Delete when bootstrap/scss/reboot gets merged
+      line-height: $line-height-base; // Delete when bootstrap/scss/reboot gets merged
     }
   }
 }

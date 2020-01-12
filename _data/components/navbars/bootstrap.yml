@@ -1,19 +1,51 @@
 i18n:
   en_US:
-    contact_me: Email me
-    download:
-      title: Download CV
-      link: /assets/pdf/CV_Edgar_Tinajero_English.pdf
-    lang_switcher: 
-      title: Español
-      id: spanish
-      target: es_MX
+    nav-items:
+      - title: Download CV
+        link: /assets/pdf/CV_Edgar_Tinajero_English.pdf
+        icon: |
+          <span class="fa-layers fa-fw">
+            <i class="fas fa-file-pdf text-light fa-lg"></i>
+            <i class="far fa-file-pdf text-pdf fa-lg"></i>
+          </span>
+      - title: Email me
+        link: mailto:@site.email
+        icon: |
+          <span class="fa-layers fa-fw">
+            <i class="fas fa-envelope text-light fa-lg" data-fa-transform="left-3"></i>
+            <i class="far fa-envelope text-envelope fa-lg" data-fa-transform="left-3"></i>
+          </span>
+      - title: Español
+        link: javascript:change_lang('es_MX');
+        icon: |
+          <span class="fa-layers fa-fw fa-lg" data-fa-transform="grow-5">
+            <i class="fas fa-circle text-success fa-lg"></i>
+            <i class="fas fa-globe-americas text-ocean fa-lg"></i>
+            <i class="fas fa-map-pin text-primary" data-fa-transform="shrink-13 left-4 up-2 rotate-15"></i>
+            <span class="fa-layers-counter fa-layers-bottom-left bg-info fa-layers-lang">Es</span>
+          </span>
   es_MX:
-    contact_me: Contáctame
-    download:
-      title: Descargar CV
-      link: /assets/pdf/CV_Edgar_Tinajero_Spanish.pdf
-    lang_switcher: 
-      title: English
-      id: english
-      target: en_US
+    nav-items:
+      - title: Descargar CV
+        link: /assets/pdf/CV_Edgar_Tinajero_Spanish.pdf
+        icon: |
+          <span class="fa-layers fa-fw">
+            <i class="fas fa-file-pdf text-light fa-lg"></i>
+            <i class="far fa-file-pdf text-pdf fa-lg"></i>
+          </span>
+      - title: Contáctame
+        link: mailto:@site.email
+        icon: |
+          <span class="fa-layers fa-fw">
+            <i class="fas fa-envelope text-light fa-lg" data-fa-transform="left-3"></i>
+            <i class="far fa-envelope text-envelope fa-lg" data-fa-transform="left-3"></i>
+          </span>
+      - title: English
+        link: javascript:change_lang('en_US');
+        icon: |
+          <span class="fa-layers fa-fw fa-lg" data-fa-transform="grow-5">
+            <i class="fas fa-circle text-success fa-lg"></i>
+            <i class="fas fa-globe-americas text-ocean fa-lg"></i>
+            <i class="fas fa-map-pin text-primary" data-fa-transform="shrink-13 left-4 up-5 rotate-15"></i>
+            <span class="fa-layers-counter fa-layers-bottom-left bg-info fa-layers-lang">En</span>
+          </span>
