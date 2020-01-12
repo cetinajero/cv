@@ -31,12 +31,13 @@ yarn-error.log
 /assets/node_modules/@fortawesome/fontawesome-free/js/v4-shims.*
 /assets/node_modules/@fortawesome/fontawesome-free/js/all.*
 /assets/node_modules/@fortawesome/fontawesome-free/js/brands.*
-/assets/node_modules/@fortawesome/fontawesome-free/js/regular.*
 
 # bootstrap
 /assets/node_modules/popper.js/
 /assets/node_modules/bootstrap/dist/
-/assets/node_modules/bootstrap/js/
+/assets/node_modules/bootstrap/js/**/*.*
+!/assets/node_modules/bootstrap/js/dist/util.js
+!/assets/node_modules/bootstrap/js/dist/collapse.js
 /assets/node_modules/bootstrap/scss/**/*.scss
 !/assets/node_modules/bootstrap/scss/_functions.scss
 !/assets/node_modules/bootstrap/scss/_variables.scss
