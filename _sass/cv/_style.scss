@@ -167,7 +167,7 @@ h4 {
     margin-top:7px;
 }
 
-#remark{
+.remark{
     background:#ddd;
 }
 
@@ -175,33 +175,33 @@ h4 {
     background:#17375C;
 }
 
-#remark h2 small,
-#remark .position small,
-#remark h3 small{
+.remark h2 small,
+.remark .position small,
+.remark h3 small{
     color:#555555;
 }
 
-#remark,
-#notremark,
+.remark,
+.notremark,
 #certification{
     padding:0px 10px 5px;
     border-radius:10px;
 }
 
-#remark h2,
-#notremark h2,
-#remark h3,
-#notremark h3{
+.remark h2,
+.notremark h2,
+.remark h3,
+.notremark h3{
     padding-top:5px;
     color:#17375C;
 }
 
 #certification h3,
 #certification .position,
-#notremark h3,
-#notremark .position,
-#remark h3,
-#remark .position{
+.notremark h3,
+.notremark .position,
+.remark h3,
+.remark .position{
     padding-top:5px;
 }
 
