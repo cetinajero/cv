@@ -8,8 +8,10 @@
       {% include components/description-lists/description-list.liquid %}
     {% endfor %}
 
-    <p id="interest-areas">{{ data.interest-areas.heading }}:</p>
-    {% include components/lists/list.liquid lists=data.interest-areas.areas %}
+    <div class="d-print-none">
+      <p id="interest-areas">{{ data.interest-areas.heading }}:</p>
+      {% include components/lists/list.liquid lists=data.interest-areas.areas %}
+    </div>
 
     {% include components/utilities/clearfix.liquid %}
 
