@@ -11,24 +11,23 @@
   <body>
     {% include components/modals/modal.liquid %}
 
-    <table id="container">
-      <tbody>
-        <tr>
-          <td id="generals" class="d-print-none">
-            <div id="sidebar">
-              {% include components/sidebars/sidebar.liquid %}
-            </div>
-          </td>
-          <td id="content">
-            {% for lang in site.languages %}
-              <div id="{{ lang }}">
-                {% include components/landing-pages/cv.liquid lang=lang %}
-              </div>
-            {% endfor %}
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <section id="container" class="d-flex">
+
+      <section id="generals" class="d-print-none">
+        <div id="sidebar">
+          {% include components/sidebars/sidebar.liquid %}
+        </div>
+      </section>
+
+      <article id="content">
+        {% for lang in site.languages %}
+          <div id="{{ lang }}">
+            {% include components/landing-pages/cv.liquid lang=lang %}
+          </div>
+        {% endfor %}
+      </article>
+
+    </section>
 
     {% include components/ribbons/octocat-corners.liquid %}
     {% include components/scripts/scripts.liquid %}

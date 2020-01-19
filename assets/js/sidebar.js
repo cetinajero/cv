@@ -1,7 +1,9 @@
 function checkWindowSize() {
 	// Fix sidebar if necessary
-	if ( $(window).height() < 520 ) 	$('#sidebar').removeClass('fixed');
-	else $('#sidebar').addClass('fixed');
+	if ( $(window).height() < 520 )
+		$('#sidebar').removeClass('fixed');
+	else
+		$('#sidebar').addClass('fixed');
 
 	// Align generals to the sidebar's right corner
 	var generals = document.getElementById("generals");

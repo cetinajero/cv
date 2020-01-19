@@ -19,7 +19,6 @@ social:
       - https://twitter.com/cetinajero
       - https://facebook.com/cetinajero
       - https://linkedin.com/in/cetinajero
-      - https://plus.google.com/u/0/+EdgarTinajero
 permalink: /:categories/:title/
 
 defaults:

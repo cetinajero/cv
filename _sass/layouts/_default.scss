@@ -9,8 +9,6 @@ body {
   width:100%;
   margin:0 auto;
   border-collapse:collapse;
-  padding-left:41px;
-  padding-right:41px;
 }
 
 #generals {
@@ -18,13 +16,11 @@ body {
   vertical-align:top;
   min-width:283px;
   padding:0;
-  z-index:-1;
 }
 
 #content {
   min-width: 455px;
-  float:left;
-  width:calc(100% - 150px);
+  flex-basis:calc(100% - 150px - (((100% - 960px)/2) + 242px));
   position:relative;
   margin:0px;
   padding:0px 0px 0px 20px;
@@ -40,7 +36,7 @@ body {
 
 @media print {
   #content {
-    width: auto;
+    flex-basis: auto;
     p {
       margin: 15px;
     }
