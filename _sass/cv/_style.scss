@@ -4,41 +4,6 @@
 ------------------------------------------------------------
 */
 
-body {height:100%;margin:0px; padding:0px; font-family: Arial, Helvetica,sans-serif;}
-
-#container {
-	width:100%;
-	margin:0 auto;
-    border-collapse:collapse;
-    padding-left:41px;
-    padding-right:41px;
-}
-
-#generals {
-    background:transparent url(../img/bg-generals-blue.jpg) repeat-y fixed left top;
-    vertical-align:top;
-    min-width:283px;
-    padding:0;
-    z-index:-1;
-}
-
-#content {
-	min-width: 455px;
-	float:left;
-	width:calc(100% - 150px);
-	position:relative;
-	margin:0px;
-	padding:0px 0px 0px 20px;
-	text-align:justify;
-	margin-bottom:30px;
-    background:white;
-}
-
-#content p {
-	line-height:21px;
-    margin:19px;
-}
-
 a img {
 	border:0 none;
 }
@@ -165,62 +130,4 @@ h4 {
 
 #skills h3{
     margin-top:7px;
-}
-
-.remark{
-    background:#ddd;
-}
-
-#certification{
-    background:#17375C;
-}
-
-.remark h2 small,
-.remark .position small,
-.remark h3 small{
-    color:#555555;
-}
-
-.remark,
-.notremark,
-#certification{
-    padding:0px 10px 5px;
-    border-radius:10px;
-}
-
-.remark h2,
-.notremark h2,
-.remark h3,
-.notremark h3{
-    padding-top:5px;
-    color:#17375C;
-}
-
-#certification h3,
-#certification .position,
-.notremark h3,
-.notremark .position,
-.remark h3,
-.remark .position{
-    padding-top:5px;
-}
-
-#certification h3,
-#certification .position{
-    color:#DDDDDD;
-}
-
-#certification .position small,
-#certification h3 small{
-    color:#BBBBBB;
-}
-
-#certifications a{
-    color:#000000;
-    text-decoration:none;
-}
-
-#footer div{
-    float:left;
-    margin-top:5px;
 }

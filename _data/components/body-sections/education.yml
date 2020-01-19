@@ -19,7 +19,7 @@ i18n:
               company: EC-Council
               url: //www.info-trek.com/details/ENSA-EC-Council-Network-Security-Administrator/4931
               details: 2013 | Mexico City | 45 hours
-              class: remark
+              class: remark d-print-none
             - name: TECI-FrtySec13 certification | HP Technical Certified I - Fortify Security
               company: HP
               url: //certification-learning.hpe.com/TR/DataSheet/Certification/ATP-FSV1?version=6
@@ -51,15 +51,15 @@ i18n:
             - name: Technical Course and Telemetry Systems Geolocation IP over RF
               company: BGH
               details: 2009 | Buenos Aires, Argentina | 55 hours
-              class: remark
+              class: remark d-print-none
             - name: 6420A - Fundamentals of Windows Server 2008 Network and Applications Infrastructure
               company: NetX
               details: 2009 | Chihuahua, Mexico | 35 hours
-              class: remark
+              class: remark d-print-none
             - name: Certification Course MWFE | Motorola Wireless Field Engineer
               company: Motorola
               details: 2009 | Mexico City | 45 hours
-              class: remark
+              class: remark d-print-none
             - name: MMD200 - Technical Course MotoMesh Solo/Duo/Quattro
               company: Motorola
               details: 2008 | Mexico City | 20 hours
@@ -75,7 +75,7 @@ i18n:
             - name: Technical Course Installation and Configuration Services Digital Imaging and Video
               company: Pelco
               details: 2008 | Clovis, CA, United States | 30 hours
-              class: remark
+              class: remark d-print-none
             - name: Technical Course DigitalSENTRY IP Video Recording
               company: Pelco
               details: 2008 | Clovis, CA, United States | 20 hours
@@ -124,7 +124,7 @@ i18n:
               company: EC-Council
               url: //www.info-trek.com/details/ENSA-EC-Council-Network-Security-Administrator/4931
               details: 2013 | Mexico City | 45 hours
-              class: remark
+              class: remark d-print-none
             - name: Certificación TECI-FrtySec13 | HP Technical Certified I - Fortify Security
               company: HP
               url: //certification-learning.hpe.com/TR/DataSheet/Certification/ATP-FSV1?version=6
@@ -156,15 +156,15 @@ i18n:
             - name: Curso Técnico de Geolocalización y Telemetría en Sistemas IP sobre Radiofrecuencia
               company: BGH
               details: 2009 | Buenos Aires, Argentina | 55 horas
-              class: remark
+              class: remark d-print-none
             - name: 6420A - Fundamentals of Windows Server 2008 Network and Applications Infrastructure
               company: NetX
               details: 2009 | Chihuahua, México | 35 horas
-              class: remark
+              class: remark d-print-none
             - name: Curso de Certificación MWFE | Motorola Wireless Field Engineer
               company: Motorola
               details: 2009 | México, D.F. | 45 horas
-              class: remark
+              class: remark d-print-none
             - name: MMD200 - Curso Técnico MotoMesh Solo/Duo/Quattro
               company: Motorola
               details: 2008 | México, D.F. | 20 horas
@@ -180,7 +180,7 @@ i18n:
             - name: Curso Técnico de Instalación y Configuración de Servicios de Imagen y Video Digital
               company: Pelco
               details: 2008 | Clovis, CA, Estados Unidos | 30 horas
-              class: remark
+              class: remark d-print-none
             - name: Curso Técnico de Grabación de Video IP DigitalSENTRY
               company: Pelco
               details: 2008 | Clovis, CA, Estados Unidos | 20 horas

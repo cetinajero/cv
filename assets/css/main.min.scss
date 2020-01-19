@@ -37,10 +37,14 @@ $theme-colors: (
 
 @import "cv/style";
 
+// Import layout partials
+@import "layouts/default";
+
 // Import component partials
 @import "components/body-sections/degree";
 @import "components/modals/modal";
 @import "components/navbars/bootstrap";
+@import "components/pills/pill";
 @import "components/ribbons/octocat-corners/animation";
 @import "components/ribbons/octocat-corners/style";
 @import "components/sidebars/sidebar";

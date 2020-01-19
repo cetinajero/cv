@@ -1,0 +1,48 @@
+body {
+  height:100%;
+  margin:0px;
+  padding:0px;
+  font-family: Arial, Helvetica,sans-serif;
+}
+
+#container {
+  width:100%;
+  margin:0 auto;
+  border-collapse:collapse;
+  padding-left:41px;
+  padding-right:41px;
+}
+
+#generals {
+  background:transparent url(../img/bg-generals-blue.jpg) repeat-y fixed left top;
+  vertical-align:top;
+  min-width:283px;
+  padding:0;
+  z-index:-1;
+}
+
+#content {
+  min-width: 455px;
+  float:left;
+  width:calc(100% - 150px);
+  position:relative;
+  margin:0px;
+  padding:0px 0px 0px 20px;
+  text-align:justify;
+  margin-bottom:30px;
+  background:white;
+}
+
+#content p {
+  line-height:21px;
+  margin:19px;
+}
+
+@media print {
+  #content {
+    width: auto;
+    p {
+      margin: 15px;
+    }
+  }
+}

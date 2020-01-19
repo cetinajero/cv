@@ -25,11 +25,11 @@
 
       {% if degree.certifications %}
         <hr class="d-print-none"/>
-        <div id="certifications">
+        <div>
           <h2>{{ degree.certifications.heading }}</h2>
           <ul>
             {% for certification in degree.certifications.list %}
-              <a {% if certification.url %}href="{{ certification.url }}?iframe=true&width=1110&height=400"{% endif %} title="{{ certification.name }}">
+              <a {% if certification.url %}href="{{ certification.url }}?iframe=true&width=1110&height=400"{% endif %} title="{{ certification.name }}" class="text-dark text-decoration-none">
                 <li class="{{ certification.class }}">
                   {% include components/pills/pill.liquid
                     heading-tag='h3'

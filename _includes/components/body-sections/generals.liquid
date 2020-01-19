@@ -1,7 +1,9 @@
 {% assign data = site.data.components.body-sections.generals.i18n[include.lang] %}
 
 <div id="general">
-  {% include components/headings/low-gray.liquid %}
+  <div class="d-print-none">
+    {% include components/headings/low-gray.liquid %}
+  </div>
   <h2>{{ data.title }}</h2>
   <div id="info">
     {% for attribute in data.attributes %}
