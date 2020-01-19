@@ -2,12 +2,12 @@ i18n:
   en_US:
     heading: Extracurricular
     activities:
-      - name: Human growth - Active member of institute of leadership and emotional intelligence | Level 3
+      - name: Human growth - Active member of institute of leadership and emotional intelligence | 4th level
         company: Instituto Alas
         details: 2010 | Chihuahua, Mexico
   es_MX:
     heading: Extracurriculares
     activities:
-      - name: Crecimiento humano - Miembro activo de un instituto de inteligencia emocional y liderazgo | Nivel 3
+      - name: Crecimiento humano - Miembro activo de un instituto de inteligencia emocional y liderazgo | Nivel 4
         company: Instituto Alas
         details: 2011 | Chihuahua, México
