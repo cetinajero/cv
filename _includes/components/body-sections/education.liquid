@@ -14,7 +14,7 @@
           details-title=degree.details-title
         %}
 
-        <div id="degree-info" class="disabled-pdf mt-3">
+        <div id="degree-info" class="d-print-none mt-3">
           {% for activity in degree.activities %}
             {% include components/lists/list.liquid lists=degree.activities %}
           {% endfor %}
@@ -24,18 +24,17 @@
       </div>
 
       {% if degree.certifications %}
-        <hr/>
-        <div id="certifications">
+        <hr class="d-print-none"/>
+        <div>
           <h2>{{ degree.certifications.heading }}</h2>
           <ul>
             {% for certification in degree.certifications.list %}
-              <a {% if certification.url %}href="{{ certification.url }}?iframe=true&width=1110&height=400"{% endif %} title="{{ certification.name }}">
-                <li>
+              <a {% if certification.url %}href="{{ certification.url }}?iframe=true&width=1110&height=400"{% endif %} title="{{ certification.name }}" class="text-dark text-decoration-none">
+                <li class="{{ certification.class }}">
                   {% include components/pills/pill.liquid
                     heading-tag='h3'
                     heading-title=certification.name
                     heading-small=certification.company
-                    heading-class=certification.class
                     details-title=certification.details
                   %}
                 </li>

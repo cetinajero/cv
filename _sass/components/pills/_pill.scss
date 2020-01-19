@@ -1,0 +1,48 @@
+
+.remark{
+    background:#ddd;
+}
+
+.certification{
+    background:#17375C;
+}
+
+.remark h2 small,
+.remark .position small,
+.remark h3 small{
+    color:#555555;
+}
+
+.remark,
+.notremark,
+.certification{
+    padding:0px 10px 5px;
+    border-radius:10px;
+}
+
+.remark h2,
+.notremark h2,
+.remark h3,
+.notremark h3{
+    padding-top:5px;
+    color:#17375C;
+}
+
+.certification h3,
+.certification .position,
+.notremark h3,
+.notremark .position,
+.remark h3,
+.remark .position{
+    padding-top:5px;
+}
+
+.certification h3,
+.certification .position{
+    color:#DDDDDD;
+}
+
+.certification .position small,
+.certification h3 small{
+    color:#BBBBBB;
+}

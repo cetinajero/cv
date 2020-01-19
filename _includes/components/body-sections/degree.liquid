@@ -2,7 +2,7 @@
 
 <h2 class="degree">
   {{ data.degree }}
-  <div class="subdegree">
+  <div class="subdegree d-print-none">
     {{ data.subdegree }}:
     {% for certification in data.certifications %}
       <a href="{{ certification.url }}" title="{{ certification.tooltip }}" id="{{ certification.id }}">

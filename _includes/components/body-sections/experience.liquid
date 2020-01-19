@@ -19,7 +19,7 @@
           <p>{{ job.desc }}</p>
         </div>
 
-        <div id="jobtasks" class="disabled-pdf">
+        <div id="jobtasks" class="d-print-none">
           {% for activity in job.activities %}
             {% include components/lists/list.liquid lists=job.activities %}
           {% endfor %}
@@ -29,7 +29,7 @@
       </div>
 
       {% unless forloop.last %}
-        <hr/>
+        <hr class="d-print-none"/>
       {% endunless %}
     {% endfor %}
   </div>

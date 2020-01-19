@@ -29,16 +29,22 @@ $theme-colors: (
 @import "../assets/node_modules/bootstrap/scss/navbar";
 @import "../assets/node_modules/bootstrap/scss/utilities/background";
 @import "../assets/node_modules/bootstrap/scss/utilities/borders";
+@import "../assets/node_modules/bootstrap/scss/utilities/display";
 @import "../assets/node_modules/bootstrap/scss/utilities/flex";
 @import "../assets/node_modules/bootstrap/scss/utilities/spacing";
 @import "../assets/node_modules/bootstrap/scss/utilities/text";
+@import "../assets/node_modules/bootstrap/scss/print";
 
 @import "cv/style";
+
+// Import layout partials
+@import "layouts/default";
 
 // Import component partials
 @import "components/body-sections/degree";
 @import "components/modals/modal";
 @import "components/navbars/bootstrap";
+@import "components/pills/pill";
 @import "components/ribbons/octocat-corners/animation";
 @import "components/ribbons/octocat-corners/style";
 @import "components/sidebars/sidebar";

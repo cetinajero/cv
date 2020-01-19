@@ -4,7 +4,7 @@ i18n:
     title: Carlos Edgar Tinajero Villalobos, B.S.Eng
     attributes:
       - { key: 'Gender', value: 'Male' }
-      - { key: 'Marital status', value: 'Single' }
+      - { key: 'Marital status', value: 'Married' }
       - { key: 'Age', value: 'Years', id: 'age-en' }
       - { key: 'Date of birth', value: 'August 12, 1987' }
       - { key: 'Current city', value: 'Chihuahua, Mexico' }
@@ -13,7 +13,7 @@ i18n:
     title: Ing. Carlos Edgar Tinajero Villalobos
     attributes:
       - { key: 'Sexo', value: 'Masculino' }
-      - { key: 'Estado Civil', value: 'Soltero' }
+      - { key: 'Estado Civil', value: 'Casado' }
       - { key: 'Edad', value: 'Años', id: 'age-es' }
       - { key: 'Fecha de Nacimiento', value: '12 de Agosto de 1987' }
       - { key: 'Residencia Actual', value: 'Chihuahua, México' }
