@@ -41,7 +41,7 @@ i18n:
               class: notremark d-print-none
             - name: ECSI Certification | Certified Security Information Specialist
               company: ALAPSI
-              url: http://www.alapsi.net/pgsi.html
+              url: https://web.archive.org/web/20200221213051/http://www.alapsi.net/pgsi.html
               details: 2011 | Chihuahua, Mexico
               class: certification
             - name: Program Information Security Management
@@ -146,7 +146,7 @@ i18n:
               class: notremark d-print-none
             - name: Certificación ECSI | Especialista Certificado en Seguridad de Información
               company: ALAPSI
-              url: http://www.alapsi.net/pgsi.html
+              url: https://web.archive.org/web/20200221213051/http://www.alapsi.net/pgsi.html
               details: 2011 | Chihuahua, México
               class: certification
             - name: Programa de Gestión de Seguridad de Información

@@ -6,7 +6,7 @@ i18n:
       - id: certificacion-ecsi
         name: ECSI
         tooltip: Certified Security Information Specialist
-        url: http://www.alapsi.net/pgsi.html?iframe=true&width=1180&height=400
+        url: https://web.archive.org/web/20200221213051/http://www.alapsi.net/pgsi.html?iframe=true&width=1180&height=400
       - id: certificacion-ceh
         name: CEH
         tooltip: Certified Ethical Hacker
@@ -26,7 +26,7 @@ i18n:
       - id: certificacion-ecsi
         name: ECSI
         tooltip: Especialista Certificado en Seguridad de Información
-        url: http://www.alapsi.net/pgsi.html?iframe=true&width=1180&height=400
+        url: https://web.archive.org/web/20200221213051/http://www.alapsi.net/pgsi.html?iframe=true&width=1180&height=400
       - id: certificacion-ceh
         name: CEH
         tooltip: Certified Ethical Hacker
